@@ -1,0 +1,5966 @@
+{
+"note": "Hand-picked airports first (start: true = offered as a starting airport; the first is the default). Entries with ne: true are from Natural Earth 1:10m airports (public domain).",
+"airports": [
+{
+"icao": "KSLC",
+"name": "Salt Lake City",
+"lat": 40.7884,
+"lng": -111.9778,
+"start": true
+},
+{
+"icao": "KHCR",
+"name": "Heber Valley",
+"lat": 40.4818,
+"lng": -111.4288,
+"start": true
+},
+{
+"icao": "KPVU",
+"name": "Provo",
+"lat": 40.2192,
+"lng": -111.7234,
+"start": true
+},
+{
+"icao": "KOGD",
+"name": "Ogden",
+"lat": 41.1961,
+"lng": -112.0122
+},
+{
+"icao": "KPAO",
+"name": "Palo Alto",
+"lat": 37.4611,
+"lng": -122.115,
+"start": true
+},
+{
+"icao": "KSQL",
+"name": "San Carlos",
+"lat": 37.5119,
+"lng": -122.2495
+},
+{
+"icao": "KSJC",
+"name": "San José",
+"lat": 37.3626,
+"lng": -121.9291
+},
+{
+"icao": "KOAK",
+"name": "Oakland",
+"lat": 37.7213,
+"lng": -122.2208
+},
+{
+"icao": "KSFO",
+"name": "San Francisco",
+"lat": 37.6188,
+"lng": -122.375
+},
+{
+"icao": "KTVL",
+"name": "South Lake Tahoe",
+"lat": 38.8939,
+"lng": -119.9953
+},
+{
+"icao": "KRNO",
+"name": "Reno",
+"lat": 39.4991,
+"lng": -119.7681
+},
+{
+"icao": "KELY",
+"name": "Ely",
+"lat": 39.2997,
+"lng": -114.8419
+},
+{
+"icao": "KLAS",
+"name": "Las Vegas",
+"lat": 36.084,
+"lng": -115.1537
+},
+{
+"icao": "KLAX",
+"name": "Los Angeles",
+"lat": 33.9416,
+"lng": -118.4085
+},
+{
+"icao": "KPHX",
+"name": "Phoenix",
+"lat": 33.4342,
+"lng": -112.0116
+},
+{
+"icao": "KABQ",
+"name": "Albuquerque",
+"lat": 35.0402,
+"lng": -106.6091
+},
+{
+"icao": "KDEN",
+"name": "Denver",
+"lat": 39.8561,
+"lng": -104.6737
+},
+{
+"icao": "KBOI",
+"name": "Boise",
+"lat": 43.5644,
+"lng": -116.2228
+},
+{
+"icao": "KPDX",
+"name": "Portland",
+"lat": 45.5898,
+"lng": -122.5951
+},
+{
+"icao": "KSEA",
+"name": "Seattle",
+"lat": 47.4502,
+"lng": -122.3088
+},
+{
+"icao": "KMSO",
+"name": "Missoula",
+"lat": 46.9163,
+"lng": -114.0906
+},
+{
+"icao": "KBIL",
+"name": "Billings",
+"lat": 45.8077,
+"lng": -108.5429
+},
+{
+"icao": "KRAP",
+"name": "Rapid City",
+"lat": 44.0453,
+"lng": -103.0574
+},
+{
+"icao": "KOMA",
+"name": "Omaha",
+"lat": 41.3032,
+"lng": -95.8941
+},
+{
+"icao": "KMCI",
+"name": "Kansas City",
+"lat": 39.2976,
+"lng": -94.7139
+},
+{
+"icao": "KDFW",
+"name": "Dallas Fort Worth",
+"lat": 32.8998,
+"lng": -97.0403
+},
+{
+"icao": "KMSY",
+"name": "New Orleans",
+"lat": 29.9934,
+"lng": -90.258
+},
+{
+"icao": "KSTL",
+"name": "St. Louis",
+"lat": 38.7487,
+"lng": -90.37
+},
+{
+"icao": "KORD",
+"name": "Chicago O'Hare",
+"lat": 41.9742,
+"lng": -87.9073
+},
+{
+"icao": "KSDF",
+"name": "Louisville",
+"lat": 38.1744,
+"lng": -85.736
+},
+{
+"icao": "KATL",
+"name": "Atlanta",
+"lat": 33.6407,
+"lng": -84.4277
+},
+{
+"icao": "KMIA",
+"name": "Miami",
+"lat": 25.7959,
+"lng": -80.287
+},
+{
+"icao": "KDCA",
+"name": "Washington National",
+"lat": 38.8512,
+"lng": -77.0402
+},
+{
+"icao": "KJFK",
+"name": "New York JFK",
+"lat": 40.6413,
+"lng": -73.7781
+},
+{
+"icao": "KBOS",
+"name": "Boston",
+"lat": 42.3656,
+"lng": -71.0096
+},
+{
+"icao": "CYVR",
+"name": "Vancouver",
+"lat": 49.1967,
+"lng": -123.1815
+},
+{
+"icao": "CYYC",
+"name": "Calgary",
+"lat": 51.1215,
+"lng": -114.0076
+},
+{
+"icao": "CYEG",
+"name": "Edmonton",
+"lat": 53.3097,
+"lng": -113.58
+},
+{
+"icao": "CYXJ",
+"name": "Fort St. John",
+"lat": 56.2381,
+"lng": -120.7403
+},
+{
+"icao": "CYQH",
+"name": "Watson Lake",
+"lat": 60.1164,
+"lng": -128.8225
+},
+{
+"icao": "CYXY",
+"name": "Whitehorse",
+"lat": 60.7096,
+"lng": -135.067
+},
+{
+"icao": "CYDA",
+"name": "Dawson City",
+"lat": 64.0431,
+"lng": -139.1278
+},
+{
+"icao": "CYYZ",
+"name": "Toronto",
+"lat": 43.6777,
+"lng": -79.6248
+},
+{
+"icao": "PAFA",
+"name": "Fairbanks",
+"lat": 64.8151,
+"lng": -147.8561
+},
+{
+"icao": "PANC",
+"name": "Anchorage",
+"lat": 61.1743,
+"lng": -149.9983
+},
+{
+"icao": "PAOM",
+"name": "Nome",
+"lat": 64.5122,
+"lng": -165.4453
+},
+{
+"icao": "UHMA",
+"name": "Anadyr",
+"lat": 64.7349,
+"lng": 177.7415
+},
+{
+"icao": "UHMM",
+"name": "Magadan",
+"lat": 59.911,
+"lng": 150.72
+},
+{
+"icao": "UHPP",
+"name": "Petropavlovsk-Kamchatsky",
+"lat": 53.1679,
+"lng": 158.4536
+},
+{
+"icao": "UHHH",
+"name": "Khabarovsk",
+"lat": 48.528,
+"lng": 135.188
+},
+{
+"icao": "UEEE",
+"name": "Yakutsk",
+"lat": 62.0933,
+"lng": 129.7706
+},
+{
+"icao": "UIII",
+"name": "Irkutsk",
+"lat": 52.268,
+"lng": 104.389
+},
+{
+"icao": "UNKL",
+"name": "Krasnoyarsk",
+"lat": 56.1729,
+"lng": 92.4933
+},
+{
+"icao": "UNNT",
+"name": "Novosibirsk",
+"lat": 55.0126,
+"lng": 82.6507
+},
+{
+"icao": "USSS",
+"name": "Yekaterinburg",
+"lat": 56.7431,
+"lng": 60.8027
+},
+{
+"icao": "UUEE",
+"name": "Moscow Sheremetyevo",
+"lat": 55.9726,
+"lng": 37.4146
+},
+{
+"icao": "MMMX",
+"name": "Mexico City",
+"lat": 19.4361,
+"lng": -99.0719
+},
+{
+"icao": "PHNL",
+"name": "Honolulu",
+"lat": 21.3245,
+"lng": -157.9251
+},
+{
+"icao": "PHOG",
+"name": "Kahului, Maui",
+"lat": 20.8986,
+"lng": -156.4305
+},
+{
+"icao": "NSFA",
+"name": "Faleolo, Upolu",
+"lat": -13.8299,
+"lng": -171.9973
+},
+{
+"icao": "NSTU",
+"name": "Pago Pago",
+"lat": -14.331,
+"lng": -170.7105
+},
+{
+"icao": "NFFN",
+"name": "Nadi",
+"lat": -17.7554,
+"lng": 177.4434
+},
+{
+"icao": "NZAA",
+"name": "Auckland",
+"lat": -37.0082,
+"lng": 174.785
+},
+{
+"icao": "BIKF",
+"name": "Keflavík",
+"lat": 63.985,
+"lng": -22.6056
+},
+{
+"icao": "BGSF",
+"name": "Kangerlussuaq",
+"lat": 67.0122,
+"lng": -50.7116
+},
+{
+"icao": "BGKK",
+"name": "Kulusuk",
+"lat": 65.5733,
+"lng": -37.1236
+},
+{
+"icao": "EKCH",
+"name": "Copenhagen",
+"lat": 55.618,
+"lng": 12.6508
+},
+{
+"icao": "EGLL",
+"name": "London Heathrow",
+"lat": 51.47,
+"lng": -0.4543
+},
+{
+"icao": "LSZH",
+"name": "Zürich",
+"lat": 47.4582,
+"lng": 8.5555
+},
+{
+"icao": "RJTT",
+"name": "Tokyo Haneda",
+"lat": 35.5494,
+"lng": 139.7798
+},
+{
+"icao": "AGGH",
+"name": "Honiara",
+"lat": -9.4276,
+"lng": 160.0459,
+"ne": true
+},
+{
+"icao": "ANYN",
+"name": "Nauru",
+"lat": -0.545,
+"lng": 166.9161,
+"ne": true
+},
+{
+"icao": "AYPY",
+"name": "Jacksons",
+"lat": -9.4387,
+"lng": 147.2113,
+"ne": true
+},
+{
+"icao": "AYWK",
+"name": "Wewak",
+"lat": -3.5802,
+"lng": 143.6691,
+"ne": true
+},
+{
+"icao": "BGBW",
+"name": "Narsarsuaq",
+"lat": 61.1626,
+"lng": -45.4164,
+"ne": true
+},
+{
+"icao": "BIRK",
+"name": "Reykjavík",
+"lat": 64.1319,
+"lng": -21.9466,
+"ne": true
+},
+{
+"icao": "BKPR",
+"name": "Pristina International Airport Adem Jashari",
+"lat": 42.585,
+"lng": 21.0303,
+"ne": true
+},
+{
+"icao": "CYAM",
+"name": "Sault Ste. Marie",
+"lat": 46.4854,
+"lng": -84.5006,
+"ne": true
+},
+{
+"icao": "CYBR",
+"name": "Brandon Municipal",
+"lat": 49.9047,
+"lng": -99.9459,
+"ne": true
+},
+{
+"icao": "CYDQ",
+"name": "Dawson Creek",
+"lat": 55.7394,
+"lng": -120.1856,
+"ne": true
+},
+{
+"icao": "CYFB",
+"name": "Iqaluit",
+"lat": 63.7512,
+"lng": -68.5367,
+"ne": true
+},
+{
+"icao": "CYHM",
+"name": "John C. Munro Hamilton",
+"lat": 43.1634,
+"lng": -79.9264,
+"ne": true
+},
+{
+"icao": "CYHZ",
+"name": "Halifax Stanfield",
+"lat": 44.8865,
+"lng": -63.515,
+"ne": true
+},
+{
+"icao": "CYKA",
+"name": "Kamloops",
+"lat": 50.7052,
+"lng": -120.4417,
+"ne": true
+},
+{
+"icao": "CYMM",
+"name": "Fort McMurray",
+"lat": 56.6563,
+"lng": -111.2238,
+"ne": true
+},
+{
+"icao": "CYMX",
+"name": "Montréal–Mirabel",
+"lat": 45.6832,
+"lng": -74.0287,
+"ne": true
+},
+{
+"icao": "CYOW",
+"name": "Ottawa Macdonald-Cartier",
+"lat": 45.3201,
+"lng": -75.6649,
+"ne": true
+},
+{
+"icao": "CYPE",
+"name": "Peace River",
+"lat": 56.2319,
+"lng": -117.4437,
+"ne": true
+},
+{
+"icao": "CYPR",
+"name": "Prince Rupert",
+"lat": 54.292,
+"lng": -130.4456,
+"ne": true
+},
+{
+"icao": "CYQB",
+"name": "Québec City Jean Lesage",
+"lat": 46.7916,
+"lng": -71.3839,
+"ne": true
+},
+{
+"icao": "CYQG",
+"name": "Windsor",
+"lat": 42.2659,
+"lng": -82.9601,
+"ne": true
+},
+{
+"icao": "CYQM",
+"name": "Greater Moncton",
+"lat": 46.1162,
+"lng": -64.6887,
+"ne": true
+},
+{
+"icao": "CYQR",
+"name": "Regina",
+"lat": 50.4332,
+"lng": -104.6554,
+"ne": true
+},
+{
+"icao": "CYQT",
+"name": "Thunder Bay",
+"lat": 48.3719,
+"lng": -89.3121,
+"ne": true
+},
+{
+"icao": "CYQX",
+"name": "Gander",
+"lat": 48.9466,
+"lng": -54.5756,
+"ne": true
+},
+{
+"icao": "CYQY",
+"name": "Sydney/J.A. Douglas McCurdy",
+"lat": 46.1673,
+"lng": -60.0469,
+"ne": true
+},
+{
+"icao": "CYRB",
+"name": "Resolute Bay",
+"lat": 74.7182,
+"lng": -94.9708,
+"ne": true
+},
+{
+"icao": "CYSB",
+"name": "Sudbury",
+"lat": 46.6228,
+"lng": -80.7958,
+"ne": true
+},
+{
+"icao": "CYSJ",
+"name": "Saint John",
+"lat": 45.3292,
+"lng": -65.8906,
+"ne": true
+},
+{
+"icao": "CYSM",
+"name": "Fort Smith",
+"lat": 60.0199,
+"lng": -111.9611,
+"ne": true
+},
+{
+"icao": "CYTH",
+"name": "Thompson",
+"lat": 55.7975,
+"lng": -97.8607,
+"ne": true
+},
+{
+"icao": "CYTS",
+"name": "Timmins/Victor M. Power",
+"lat": 48.5662,
+"lng": -81.372,
+"ne": true
+},
+{
+"icao": "CYUL",
+"name": "Montréal–Pierre Elliott Trudeau",
+"lat": 45.4584,
+"lng": -73.7493,
+"ne": true
+},
+{
+"icao": "CYUT",
+"name": "Repulse Bay",
+"lat": 66.5333,
+"lng": -86.25,
+"ne": true
+},
+{
+"icao": "CYVP",
+"name": "Kuujjuaq",
+"lat": 58.102,
+"lng": -68.4333,
+"ne": true
+},
+{
+"icao": "CYWG",
+"name": "Winnipeg James Armstrong Richardson",
+"lat": 49.9033,
+"lng": -97.2268,
+"ne": true
+},
+{
+"icao": "CYWK",
+"name": "Wabush",
+"lat": 52.9261,
+"lng": -66.873,
+"ne": true
+},
+{
+"icao": "CYXD",
+"name": "Edmonton City Centre",
+"lat": 53.5709,
+"lng": -113.523,
+"ne": true
+},
+{
+"icao": "CYXE",
+"name": "Saskatoon John G. Diefenbaker",
+"lat": 52.1701,
+"lng": -106.6902,
+"ne": true
+},
+{
+"icao": "CYXS",
+"name": "Prince George",
+"lat": 53.8842,
+"lng": -122.674,
+"ne": true
+},
+{
+"icao": "CYYB",
+"name": "North Bay/Jack Garland",
+"lat": 46.3587,
+"lng": -79.4249,
+"ne": true
+},
+{
+"icao": "CYYG",
+"name": "Charlottetown",
+"lat": 46.2858,
+"lng": -63.1312,
+"ne": true
+},
+{
+"icao": "CYYJ",
+"name": "Victoria",
+"lat": 48.6405,
+"lng": -123.4306,
+"ne": true
+},
+{
+"icao": "CYYQ",
+"name": "Churchill",
+"lat": 58.7497,
+"lng": -94.0814,
+"ne": true
+},
+{
+"icao": "CYYT",
+"name": "St. John's",
+"lat": 47.6131,
+"lng": -52.7433,
+"ne": true
+},
+{
+"icao": "CYZF",
+"name": "Yellowknife",
+"lat": 62.4707,
+"lng": -114.4378,
+"ne": true
+},
+{
+"icao": "DAAG",
+"name": "Algiers Houari Boumediene",
+"lat": 36.6997,
+"lng": 3.2121,
+"ne": true
+},
+{
+"icao": "DABC",
+"name": "Mohamed Boudiaf",
+"lat": 36.2834,
+"lng": 6.6219,
+"ne": true
+},
+{
+"icao": "DAOO",
+"name": "Oran Ahmed Ben Bella",
+"lat": 35.6203,
+"lng": -0.6068,
+"ne": true
+},
+{
+"icao": "DBBB",
+"name": "Cadjehoun",
+"lat": 6.3582,
+"lng": 2.3838,
+"ne": true
+},
+{
+"icao": "DFFD",
+"name": "Ouagadougou",
+"lat": 12.3536,
+"lng": -1.5138,
+"ne": true
+},
+{
+"icao": "DGAA",
+"name": "Kotoka",
+"lat": 5.607,
+"lng": -0.1714,
+"ne": true
+},
+{
+"icao": "DGSI",
+"name": "Kumasi",
+"lat": 6.7146,
+"lng": -1.5926,
+"ne": true
+},
+{
+"icao": "DIAP",
+"name": "Port Bouet",
+"lat": 5.2544,
+"lng": -3.9322,
+"ne": true
+},
+{
+"icao": "DIBK",
+"name": "Bouaké",
+"lat": 7.7361,
+"lng": -5.0689,
+"ne": true
+},
+{
+"icao": "DNAA",
+"name": "Nnamdi Azikiwe",
+"lat": 9.0044,
+"lng": 7.2703,
+"ne": true
+},
+{
+"icao": "DNBE",
+"name": "Benin",
+"lat": 6.3172,
+"lng": 5.6037,
+"ne": true
+},
+{
+"icao": "DNIB",
+"name": "Ibadan",
+"lat": 7.3603,
+"lng": 3.9738,
+"ne": true
+},
+{
+"icao": "DNIL",
+"name": "Ilorin",
+"lat": 8.4354,
+"lng": 4.4948,
+"ne": true
+},
+{
+"icao": "DNKA",
+"name": "Kaduna",
+"lat": 10.6946,
+"lng": 7.3253,
+"ne": true
+},
+{
+"icao": "DNKN",
+"name": "Mallam Aminu Kano",
+"lat": 12.0457,
+"lng": 8.5221,
+"ne": true
+},
+{
+"icao": "DNMA",
+"name": "Maiduguri",
+"lat": 11.8535,
+"lng": 13.0851,
+"ne": true
+},
+{
+"icao": "DNMM",
+"name": "Murtala Muhammed",
+"lat": 6.5783,
+"lng": 3.3211,
+"ne": true
+},
+{
+"icao": "DNPO",
+"name": "Port Harcourt",
+"lat": 5.007,
+"lng": 6.9499,
+"ne": true
+},
+{
+"icao": "DNSO",
+"name": "Sadiq Abubakar III",
+"lat": 12.9175,
+"lng": 5.2002,
+"ne": true
+},
+{
+"icao": "DNZA",
+"name": "Zaria",
+"lat": 11.1353,
+"lng": 7.6873,
+"ne": true
+},
+{
+"icao": "DRRN",
+"name": "Diori Hamani",
+"lat": 13.4768,
+"lng": 2.1773,
+"ne": true
+},
+{
+"icao": "DTMB",
+"name": "Monastir Habib Bourguiba",
+"lat": 35.7607,
+"lng": 10.7534,
+"ne": true
+},
+{
+"icao": "DTTA",
+"name": "Tunis–Carthage",
+"lat": 36.8474,
+"lng": 10.2177,
+"ne": true
+},
+{
+"icao": "DXXX",
+"name": "Lomé-Tokoin",
+"lat": 6.1669,
+"lng": 1.2509,
+"ne": true
+},
+{
+"icao": "EBAW",
+"name": "Antwerp",
+"lat": 51.1891,
+"lng": 4.4509,
+"ne": true
+},
+{
+"icao": "EBBR",
+"name": "Brussels",
+"lat": 50.8973,
+"lng": 4.4846,
+"ne": true
+},
+{
+"icao": "EBCI",
+"name": "Brussels South Charleroi",
+"lat": 50.4571,
+"lng": 4.4544,
+"ne": true
+},
+{
+"icao": "EDDC",
+"name": "Dresden",
+"lat": 51.1251,
+"lng": 13.765,
+"ne": true
+},
+{
+"icao": "EDDF",
+"name": "Frankfurt",
+"lat": 50.0507,
+"lng": 8.5718,
+"ne": true
+},
+{
+"icao": "EDDH",
+"name": "Hamburg",
+"lat": 53.632,
+"lng": 10.0056,
+"ne": true
+},
+{
+"icao": "EDDK",
+"name": "Cologne Bonn",
+"lat": 50.8783,
+"lng": 7.1224,
+"ne": true
+},
+{
+"icao": "EDDL",
+"name": "Düsseldorf",
+"lat": 51.2782,
+"lng": 6.7649,
+"ne": true
+},
+{
+"icao": "EDDM",
+"name": "Munich",
+"lat": 48.3538,
+"lng": 11.7881,
+"ne": true
+},
+{
+"icao": "EDDN",
+"name": "Nuremberg",
+"lat": 49.4945,
+"lng": 11.0774,
+"ne": true
+},
+{
+"icao": "EDDS",
+"name": "Stuttgart",
+"lat": 48.6901,
+"lng": 9.194,
+"ne": true
+},
+{
+"icao": "EDDT",
+"name": "Berlin Tegel",
+"lat": 52.5544,
+"lng": 13.2903,
+"ne": true
+},
+{
+"icao": "EDDW",
+"name": "Bremen",
+"lat": 53.0523,
+"lng": 8.7859,
+"ne": true
+},
+{
+"icao": "EETN",
+"name": "Tallinn",
+"lat": 59.4165,
+"lng": 24.799,
+"ne": true
+},
+{
+"icao": "EFHF",
+"name": "Helsinki-Malmi",
+"lat": 60.2494,
+"lng": 25.0455,
+"ne": true
+},
+{
+"icao": "EFHK",
+"name": "Helsinki",
+"lat": 60.3187,
+"lng": 24.9682,
+"ne": true
+},
+{
+"icao": "EFOU",
+"name": "Oulu",
+"lat": 64.9288,
+"lng": 25.3728,
+"ne": true
+},
+{
+"icao": "EFRO",
+"name": "Rovaniemi",
+"lat": 66.5596,
+"lng": 25.8294,
+"ne": true
+},
+{
+"icao": "EGAA",
+"name": "Belfast",
+"lat": 54.6616,
+"lng": -6.2162,
+"ne": true
+},
+{
+"icao": "EGBB",
+"name": "Birmingham",
+"lat": 52.4529,
+"lng": -1.7337,
+"ne": true
+},
+{
+"icao": "EGCC",
+"name": "Manchester",
+"lat": 53.3625,
+"lng": -2.2734,
+"ne": true
+},
+{
+"icao": "EGFF",
+"name": "Cardiff",
+"lat": 51.3986,
+"lng": -3.3396,
+"ne": true
+},
+{
+"icao": "EGGD",
+"name": "Bristol",
+"lat": 51.3863,
+"lng": -2.7109,
+"ne": true
+},
+{
+"icao": "EGGP",
+"name": "Liverpool John Lennon",
+"lat": 53.3364,
+"lng": -2.8586,
+"ne": true
+},
+{
+"icao": "EGGW",
+"name": "London Luton",
+"lat": 51.8803,
+"lng": -0.3762,
+"ne": true
+},
+{
+"icao": "EGKK",
+"name": "Gatwick",
+"lat": 51.1558,
+"lng": -0.163,
+"ne": true
+},
+{
+"icao": "EGNM",
+"name": "Leeds Bradford",
+"lat": 53.8691,
+"lng": -1.6598,
+"ne": true
+},
+{
+"icao": "EGNT",
+"name": "Newcastle",
+"lat": 55.0371,
+"lng": -1.7103,
+"ne": true
+},
+{
+"icao": "EGPA",
+"name": "Kirkwall",
+"lat": 58.9544,
+"lng": -2.9014,
+"ne": true
+},
+{
+"icao": "EGPB",
+"name": "Sumburgh",
+"lat": 59.8767,
+"lng": -1.2881,
+"ne": true
+},
+{
+"icao": "EGPE",
+"name": "Inverness",
+"lat": 57.5395,
+"lng": -4.0636,
+"ne": true
+},
+{
+"icao": "EGPF",
+"name": "Glasgow",
+"lat": 55.8642,
+"lng": -4.4317,
+"ne": true
+},
+{
+"icao": "EGPH",
+"name": "Edinburgh",
+"lat": 55.9486,
+"lng": -3.3643,
+"ne": true
+},
+{
+"icao": "EGPK",
+"name": "Glasgow Prestwick",
+"lat": 55.5089,
+"lng": -4.611,
+"ne": true
+},
+{
+"icao": "EHAM",
+"name": "Amsterdam Airport Schiphol",
+"lat": 52.3089,
+"lng": 4.7644,
+"ne": true
+},
+{
+"icao": "EHRD",
+"name": "Rotterdam The Hague",
+"lat": 51.9491,
+"lng": 4.4338,
+"ne": true
+},
+{
+"icao": "EICK",
+"name": "Cork",
+"lat": 51.8485,
+"lng": -8.4901,
+"ne": true
+},
+{
+"icao": "EIDW",
+"name": "Dublin",
+"lat": 53.427,
+"lng": -6.2439,
+"ne": true
+},
+{
+"icao": "EINN",
+"name": "Shannon",
+"lat": 52.6935,
+"lng": -8.9224,
+"ne": true
+},
+{
+"icao": "EKVG",
+"name": "Vágar",
+"lat": 62.0625,
+"lng": -7.2708,
+"ne": true
+},
+{
+"icao": "ELLX",
+"name": "Luxembourg",
+"lat": 49.6343,
+"lng": 6.2164,
+"ne": true
+},
+{
+"icao": "ENBR",
+"name": "Bergen",
+"lat": 60.2891,
+"lng": 5.2273,
+"ne": true
+},
+{
+"icao": "ENGM",
+"name": "Oslo",
+"lat": 60.1936,
+"lng": 11.0991,
+"ne": true
+},
+{
+"icao": "ENKR",
+"name": "Kirkenes",
+"lat": 69.7238,
+"lng": 29.8913,
+"ne": true
+},
+{
+"icao": "ENSB",
+"name": "Svalbard",
+"lat": 78.2467,
+"lng": 15.4952,
+"ne": true
+},
+{
+"icao": "ENTC",
+"name": "Tromsø",
+"lat": 69.6797,
+"lng": 18.9073,
+"ne": true
+},
+{
+"icao": "ENVA",
+"name": "Trondheim",
+"lat": 63.472,
+"lng": 10.9168,
+"ne": true
+},
+{
+"icao": "ENZV",
+"name": "Stavanger",
+"lat": 58.8822,
+"lng": 5.6298,
+"ne": true
+},
+{
+"icao": "EPGD",
+"name": "Gdańsk Lech Wałęsa",
+"lat": 54.3807,
+"lng": 18.4684,
+"ne": true
+},
+{
+"icao": "EPKK",
+"name": "John Paul II International Airport Kraków-Balice",
+"lat": 50.0723,
+"lng": 19.801,
+"ne": true
+},
+{
+"icao": "EPLL",
+"name": "Łódź Władysław Reymont",
+"lat": 51.7272,
+"lng": 19.4032,
+"ne": true
+},
+{
+"icao": "EPWA",
+"name": "Warsaw Chopin",
+"lat": 52.171,
+"lng": 20.9727,
+"ne": true
+},
+{
+"icao": "ESGG",
+"name": "Gothenburg-Landvetter",
+"lat": 57.6857,
+"lng": 12.2938,
+"ne": true
+},
+{
+"icao": "ESKN",
+"name": "Stockholm Skavsta",
+"lat": 58.7851,
+"lng": 16.9216,
+"ne": true
+},
+{
+"icao": "ESNQ",
+"name": "Kiruna",
+"lat": 67.8256,
+"lng": 20.3352,
+"ne": true
+},
+{
+"icao": "ESPA",
+"name": "Luleå-Kallax",
+"lat": 65.549,
+"lng": 22.123,
+"ne": true
+},
+{
+"icao": "ESSA",
+"name": "Stockholm Arlanda",
+"lat": 59.6511,
+"lng": 17.9307,
+"ne": true
+},
+{
+"icao": "ESSB",
+"name": "Stockholm Bromma",
+"lat": 59.3556,
+"lng": 17.9456,
+"ne": true
+},
+{
+"icao": "ESSP",
+"name": "Norrköping",
+"lat": 58.5834,
+"lng": 16.2339,
+"ne": true
+},
+{
+"icao": "EVRA",
+"name": "Riga",
+"lat": 56.922,
+"lng": 23.9794,
+"ne": true
+},
+{
+"icao": "EYPA",
+"name": "Palanga",
+"lat": 55.9713,
+"lng": 21.0974,
+"ne": true
+},
+{
+"icao": "EYSA",
+"name": "Šiauliai",
+"lat": 55.9038,
+"lng": 23.3832,
+"ne": true
+},
+{
+"icao": "EYVI",
+"name": "Vilnius",
+"lat": 54.6431,
+"lng": 25.2807,
+"ne": true
+},
+{
+"icao": "FACT",
+"name": "Cape Town",
+"lat": -33.9704,
+"lng": 18.5977,
+"ne": true
+},
+{
+"icao": "FADN",
+"name": "Durban",
+"lat": -29.9659,
+"lng": 30.9457,
+"ne": true
+},
+{
+"icao": "FAJS",
+"name": "OR Tambo",
+"lat": -26.1321,
+"lng": 28.232,
+"ne": true
+},
+{
+"icao": "FAPE",
+"name": "Chief Dawid Stuurman",
+"lat": -33.9841,
+"lng": 25.6118,
+"ne": true
+},
+{
+"icao": "FAPP",
+"name": "Polokwane",
+"lat": -23.859,
+"lng": 29.4533,
+"ne": true
+},
+{
+"icao": "FBSK",
+"name": "Sir Seretse Khama",
+"lat": -24.5581,
+"lng": 25.9244,
+"ne": true
+},
+{
+"icao": "FEFF",
+"name": "Bangui M'Poko",
+"lat": 4.3989,
+"lng": 18.5241,
+"ne": true
+},
+{
+"icao": "FIMP",
+"name": "Sir Seewoosagur Ramgoolam",
+"lat": -20.4318,
+"lng": 57.677,
+"ne": true
+},
+{
+"icao": "FKKR",
+"name": "Garoua",
+"lat": 9.3307,
+"lng": 13.3724,
+"ne": true
+},
+{
+"icao": "FKYS",
+"name": "Yaoundé Nsimalen",
+"lat": 3.7148,
+"lng": 11.548,
+"ne": true
+},
+{
+"icao": "FLLS",
+"name": "Kenneth Kaunda",
+"lat": -15.3269,
+"lng": 28.4455,
+"ne": true
+},
+{
+"icao": "FMCH",
+"name": "Prince Said Ibrahim",
+"lat": -11.5366,
+"lng": 43.2746,
+"ne": true
+},
+{
+"icao": "FMCZ",
+"name": "Dzaoudzi Pamandzi",
+"lat": -12.8049,
+"lng": 45.2818,
+"ne": true
+},
+{
+"icao": "FMMI",
+"name": "Ivato",
+"lat": -18.7993,
+"lng": 47.4754,
+"ne": true
+},
+{
+"icao": "FNHU",
+"name": "Albano Machado",
+"lat": -12.8025,
+"lng": 15.7498,
+"ne": true
+},
+{
+"icao": "FNLU",
+"name": "Quatro de Fevereiro",
+"lat": -8.8483,
+"lng": 13.2348,
+"ne": true
+},
+{
+"icao": "FOOL",
+"name": "Libreville",
+"lat": 0.4571,
+"lng": 9.4102,
+"ne": true
+},
+{
+"icao": "FPST",
+"name": "São Tomé",
+"lat": 0.3747,
+"lng": 6.7128,
+"ne": true
+},
+{
+"icao": "FQMA",
+"name": "Maputo",
+"lat": -25.9243,
+"lng": 32.5742,
+"ne": true
+},
+{
+"icao": "FSIA",
+"name": "Seychelles",
+"lat": -4.6711,
+"lng": 55.5116,
+"ne": true
+},
+{
+"icao": "FTTJ",
+"name": "N'Djamena",
+"lat": 12.1295,
+"lng": 15.033,
+"ne": true
+},
+{
+"icao": "FVBU",
+"name": "Joshua Mqabuko Nkomo",
+"lat": -20.0156,
+"lng": 28.6226,
+"ne": true
+},
+{
+"icao": "FVFA",
+"name": "Victoria Falls",
+"lat": -18.099,
+"lng": 25.8468,
+"ne": true
+},
+{
+"icao": "FVHA",
+"name": "Harare",
+"lat": -17.9228,
+"lng": 31.1014,
+"ne": true
+},
+{
+"icao": "FWCL",
+"name": "Chileka",
+"lat": -15.6814,
+"lng": 34.9719,
+"ne": true
+},
+{
+"icao": "FWKI",
+"name": "Lilongwe",
+"lat": -13.7886,
+"lng": 33.7828,
+"ne": true
+},
+{
+"icao": "FXMM",
+"name": "Moshoeshoe I",
+"lat": -29.4556,
+"lng": 27.5592,
+"ne": true
+},
+{
+"icao": "FYWH",
+"name": "Windhoek Hosea Kutako",
+"lat": -22.487,
+"lng": 17.4632,
+"ne": true
+},
+{
+"icao": "FZAA",
+"name": "International airport of Ndjili",
+"lat": -4.3892,
+"lng": 15.4465,
+"ne": true
+},
+{
+"icao": "FZIC",
+"name": "Bangoka",
+"lat": 0.4922,
+"lng": 25.3303,
+"ne": true
+},
+{
+"icao": "FZNA",
+"name": "Goma",
+"lat": -1.6583,
+"lng": 29.2401,
+"ne": true
+},
+{
+"icao": "FZQA",
+"name": "Lubumbashi",
+"lat": -11.5908,
+"lng": 27.5292,
+"ne": true
+},
+{
+"icao": "FZUA",
+"name": "Kananga",
+"lat": -5.9002,
+"lng": 22.4783,
+"ne": true
+},
+{
+"icao": "FZWA",
+"name": "Mbuji Mayi",
+"lat": -6.1248,
+"lng": 23.5721,
+"ne": true
+},
+{
+"icao": "GABS",
+"name": "Bamako-Sénou",
+"lat": 12.5393,
+"lng": -7.9473,
+"ne": true
+},
+{
+"icao": "GBYD",
+"name": "Banjul",
+"lat": 13.3439,
+"lng": -16.6523,
+"ne": true
+},
+{
+"icao": "GCLP",
+"name": "Gran Canaria",
+"lat": 27.9369,
+"lng": -15.3899,
+"ne": true
+},
+{
+"icao": "GCXO",
+"name": "Tenerife North",
+"lat": 28.4876,
+"lng": -16.3463,
+"ne": true
+},
+{
+"icao": "GFLL",
+"name": "Lungi",
+"lat": 8.6154,
+"lng": -13.2002,
+"ne": true
+},
+{
+"icao": "GGOV",
+"name": "Osvaldo Vieira",
+"lat": 11.8889,
+"lng": -15.6512,
+"ne": true
+},
+{
+"icao": "GLRB",
+"name": "Roberts",
+"lat": 6.2418,
+"lng": -10.3531,
+"ne": true
+},
+{
+"icao": "GMFF",
+"name": "Fes-Saïss",
+"lat": 33.9305,
+"lng": -4.9821,
+"ne": true
+},
+{
+"icao": "GMMC",
+"name": "Casablanca-Anfa",
+"lat": 33.5628,
+"lng": -7.6632,
+"ne": true
+},
+{
+"icao": "GMMN",
+"name": "Mohammed V",
+"lat": 33.3747,
+"lng": -7.5815,
+"ne": true
+},
+{
+"icao": "GMMX",
+"name": "Marrakesh Menara",
+"lat": 31.6023,
+"lng": -8.0246,
+"ne": true
+},
+{
+"icao": "GMTT",
+"name": "Tangier Ibn Battouta",
+"lat": 35.7258,
+"lng": -5.9129,
+"ne": true
+},
+{
+"icao": "GOOY",
+"name": "Léopold Sédar Senghor",
+"lat": 14.7456,
+"lng": -17.4904,
+"ne": true
+},
+{
+"icao": "GQNN",
+"name": "Nouakchott–Oumtounsy",
+"lat": 18.0979,
+"lng": -15.9519,
+"ne": true
+},
+{
+"icao": "GQPA",
+"name": "Atar",
+"lat": 20.4983,
+"lng": -13.0512,
+"ne": true
+},
+{
+"icao": "GQPP",
+"name": "Nouadhibou",
+"lat": 20.9291,
+"lng": -17.0334,
+"ne": true
+},
+{
+"icao": "GUCY",
+"name": "Conakry",
+"lat": 9.5742,
+"lng": -13.6211,
+"ne": true
+},
+{
+"icao": "GVAC",
+"name": "Amílcar Cabral",
+"lat": 16.7348,
+"lng": -22.9441,
+"ne": true
+},
+{
+"icao": "GVNP",
+"name": "Praia",
+"lat": 14.945,
+"lng": -23.4862,
+"ne": true
+},
+{
+"icao": "HAAB",
+"name": "Addis Ababa Bole",
+"lat": 8.9817,
+"lng": 38.7932,
+"ne": true
+},
+{
+"icao": "HADR",
+"name": "Aba Tenna Dejazmach Yilma",
+"lat": 9.6127,
+"lng": 41.8578,
+"ne": true
+},
+{
+"icao": "HBBA",
+"name": "Bujumbura",
+"lat": -3.322,
+"lng": 29.321,
+"ne": true
+},
+{
+"icao": "HCMM",
+"name": "Aden Adde",
+"lat": 2.0164,
+"lng": 45.3036,
+"ne": true
+},
+{
+"icao": "HDAM",
+"name": "Djibouti-Ambouli",
+"lat": 11.5521,
+"lng": 43.1497,
+"ne": true
+},
+{
+"icao": "HEAT",
+"name": "Assiut",
+"lat": 27.0508,
+"lng": 31.0162,
+"ne": true
+},
+{
+"icao": "HEBA",
+"name": "Borg El Arab",
+"lat": 30.9184,
+"lng": 29.6927,
+"ne": true
+},
+{
+"icao": "HECA",
+"name": "Cairo",
+"lat": 30.112,
+"lng": 31.3997,
+"ne": true
+},
+{
+"icao": "HEGN",
+"name": "Hurghada",
+"lat": 27.1804,
+"lng": 33.8072,
+"ne": true
+},
+{
+"icao": "HELX",
+"name": "Luxor",
+"lat": 25.673,
+"lng": 32.7033,
+"ne": true
+},
+{
+"icao": "HESH",
+"name": "Sharm el-Sheikh",
+"lat": 27.9804,
+"lng": 34.3901,
+"ne": true
+},
+{
+"icao": "HESN",
+"name": "Aswan",
+"lat": 23.9683,
+"lng": 32.8244,
+"ne": true
+},
+{
+"icao": "HETB",
+"name": "Taba",
+"lat": 29.5945,
+"lng": 34.7758,
+"ne": true
+},
+{
+"icao": "HHAS",
+"name": "Asmara",
+"lat": 15.2936,
+"lng": 38.9064,
+"ne": true
+},
+{
+"icao": "HKEL",
+"name": "Eldoret",
+"lat": 0.4051,
+"lng": 35.2237,
+"ne": true
+},
+{
+"icao": "HKJK",
+"name": "Jomo Kenyatta",
+"lat": -1.3305,
+"lng": 36.9251,
+"ne": true
+},
+{
+"icao": "HKMO",
+"name": "Moi",
+"lat": -4.0327,
+"lng": 39.6027,
+"ne": true
+},
+{
+"icao": "HLLB",
+"name": "Benina",
+"lat": 32.0873,
+"lng": 20.268,
+"ne": true
+},
+{
+"icao": "HLLT",
+"name": "Tripoli",
+"lat": 32.6692,
+"lng": 13.1443,
+"ne": true
+},
+{
+"icao": "HRYR",
+"name": "Kigali",
+"lat": -1.9637,
+"lng": 30.1349,
+"ne": true
+},
+{
+"icao": "HSPN",
+"name": "Port Sudan New",
+"lat": 19.4341,
+"lng": 37.2387,
+"ne": true
+},
+{
+"icao": "HSSS",
+"name": "Khartoum",
+"lat": 15.5922,
+"lng": 32.5502,
+"ne": true
+},
+{
+"icao": "HTDA",
+"name": "Julius Nyerere",
+"lat": -6.8667,
+"lng": 39.2075,
+"ne": true
+},
+{
+"icao": "HTKJ",
+"name": "Kilimanjaro",
+"lat": -3.4244,
+"lng": 37.0652,
+"ne": true
+},
+{
+"icao": "HTZA",
+"name": "Abeid Amani Karume",
+"lat": -6.2186,
+"lng": 39.2223,
+"ne": true
+},
+{
+"icao": "HUEN",
+"name": "Entebbe",
+"lat": 0.0449,
+"lng": 32.4428,
+"ne": true
+},
+{
+"icao": "KACV",
+"name": "Arcata-Eureka",
+"lat": 40.9719,
+"lng": -124.1071,
+"ne": true
+},
+{
+"icao": "KALB",
+"name": "Albany",
+"lat": 42.7457,
+"lng": -73.8094,
+"ne": true
+},
+{
+"icao": "KAMA",
+"name": "Rick Husband Amarillo",
+"lat": 35.2184,
+"lng": -101.7054,
+"ne": true
+},
+{
+"icao": "KAUS",
+"name": "Austin-Bergstrom",
+"lat": 30.2021,
+"lng": -97.6668,
+"ne": true
+},
+{
+"icao": "KBDL",
+"name": "Bradley",
+"lat": 41.9303,
+"lng": -72.6854,
+"ne": true
+},
+{
+"icao": "KBHM",
+"name": "Birmingham-Shuttlesworth",
+"lat": 33.5619,
+"lng": -86.7524,
+"ne": true
+},
+{
+"icao": "KBIS",
+"name": "Bismarck Municipal",
+"lat": 46.7751,
+"lng": -100.7575,
+"ne": true
+},
+{
+"icao": "KBNA",
+"name": "Nashville",
+"lat": 36.1315,
+"lng": -86.6693,
+"ne": true
+},
+{
+"icao": "KBRO",
+"name": "Brownsville/South Padre Island",
+"lat": 25.9063,
+"lng": -97.4318,
+"ne": true
+},
+{
+"icao": "KBTR",
+"name": "Baton Rouge Metropolitan",
+"lat": 30.5326,
+"lng": -91.1568,
+"ne": true
+},
+{
+"icao": "KBTV",
+"name": "Burlington",
+"lat": 44.4692,
+"lng": -73.1551,
+"ne": true
+},
+{
+"icao": "KBUF",
+"name": "Buffalo Niagara",
+"lat": 42.934,
+"lng": -78.732,
+"ne": true
+},
+{
+"icao": "KBWI",
+"name": "Baltimore/Washington International Thurgood Marshall",
+"lat": 39.1794,
+"lng": -76.6686,
+"ne": true
+},
+{
+"icao": "KCAE",
+"name": "Columbia Metropolitan",
+"lat": 33.9342,
+"lng": -81.1093,
+"ne": true
+},
+{
+"icao": "KCLE",
+"name": "Cleveland Hopkins",
+"lat": 41.4112,
+"lng": -81.8384,
+"ne": true
+},
+{
+"icao": "KCLT",
+"name": "Charlotte/Douglas",
+"lat": 35.2204,
+"lng": -80.9439,
+"ne": true
+},
+{
+"icao": "KCMH",
+"name": "John Glenn Columbus",
+"lat": 39.9981,
+"lng": -82.884,
+"ne": true
+},
+{
+"icao": "KCOS",
+"name": "Colorado Springs",
+"lat": 38.7974,
+"lng": -104.7009,
+"ne": true
+},
+{
+"icao": "KCPR",
+"name": "Casper–Natrona County",
+"lat": 42.8972,
+"lng": -106.4644,
+"ne": true
+},
+{
+"icao": "KCRP",
+"name": "Corpus Christi",
+"lat": 27.7745,
+"lng": -97.5023,
+"ne": true
+},
+{
+"icao": "KCVG",
+"name": "Cincinnati/Northern Kentucky",
+"lat": 39.0554,
+"lng": -84.6562,
+"ne": true
+},
+{
+"icao": "KDAL",
+"name": "Dallas Love Field",
+"lat": 32.8444,
+"lng": -96.8499,
+"ne": true
+},
+{
+"icao": "KDAY",
+"name": "Dayton",
+"lat": 39.899,
+"lng": -84.2205,
+"ne": true
+},
+{
+"icao": "KDET",
+"name": "Coleman A. Young",
+"lat": 42.4091,
+"lng": -83.004,
+"ne": true
+},
+{
+"icao": "KDSM",
+"name": "Des Moines",
+"lat": 41.5328,
+"lng": -93.6485,
+"ne": true
+},
+{
+"icao": "KDTW",
+"name": "Detroit Metropolitan Wayne County",
+"lat": 42.2257,
+"lng": -83.3479,
+"ne": true
+},
+{
+"icao": "KEKO",
+"name": "Elko Regional",
+"lat": 40.8276,
+"lng": -115.7865,
+"ne": true
+},
+{
+"icao": "KELP",
+"name": "El Paso",
+"lat": 31.7991,
+"lng": -106.3957,
+"ne": true
+},
+{
+"icao": "KEWR",
+"name": "Newark Liberty",
+"lat": 40.6905,
+"lng": -74.1771,
+"ne": true
+},
+{
+"icao": "KFAT",
+"name": "Fresno Yosemite",
+"lat": 36.7698,
+"lng": -119.72,
+"ne": true
+},
+{
+"icao": "KFLG",
+"name": "Flagstaff Pulliam",
+"lat": 35.1389,
+"lng": -111.6747,
+"ne": true
+},
+{
+"icao": "KFLL",
+"name": "Fort Lauderdale–Hollywood",
+"lat": 26.0717,
+"lng": -80.1453,
+"ne": true
+},
+{
+"icao": "KFSD",
+"name": "Sioux Falls Regional",
+"lat": 43.5802,
+"lng": -96.7314,
+"ne": true
+},
+{
+"icao": "KFTW",
+"name": "Fort Worth Meacham",
+"lat": 32.8208,
+"lng": -97.3551,
+"ne": true
+},
+{
+"icao": "KGEG",
+"name": "Spokane",
+"lat": 47.6255,
+"lng": -117.5368,
+"ne": true
+},
+{
+"icao": "KGLS",
+"name": "Scholes International Airport at Galveston",
+"lat": 29.2671,
+"lng": -94.8554,
+"ne": true
+},
+{
+"icao": "KGRR",
+"name": "Gerald R. Ford",
+"lat": 42.8848,
+"lng": -85.5296,
+"ne": true
+},
+{
+"icao": "KGSO",
+"name": "Piedmont Triad",
+"lat": 36.1054,
+"lng": -79.9365,
+"ne": true
+},
+{
+"icao": "KGTF",
+"name": "Great Falls",
+"lat": 47.4823,
+"lng": -111.3567,
+"ne": true
+},
+{
+"icao": "KGYY",
+"name": "Gary/Chicago",
+"lat": 41.6178,
+"lng": -87.4084,
+"ne": true
+},
+{
+"icao": "KHLN",
+"name": "Helena Regional",
+"lat": 46.6102,
+"lng": -111.9899,
+"ne": true
+},
+{
+"icao": "KHSV",
+"name": "Huntsville",
+"lat": 34.6483,
+"lng": -86.7749,
+"ne": true
+},
+{
+"icao": "KIAD",
+"name": "Washington Dulles",
+"lat": 38.9528,
+"lng": -77.4478,
+"ne": true
+},
+{
+"icao": "KIAH",
+"name": "George Bush Intercontinental",
+"lat": 29.9866,
+"lng": -95.3337,
+"ne": true
+},
+{
+"icao": "KICT",
+"name": "Wichita Dwight D. Eisenhower National",
+"lat": 37.6529,
+"lng": -97.4287,
+"ne": true
+},
+{
+"icao": "KILM",
+"name": "Wilmington",
+"lat": 34.2668,
+"lng": -77.9104,
+"ne": true
+},
+{
+"icao": "KIND",
+"name": "Indianapolis",
+"lat": 39.7302,
+"lng": -86.2734,
+"ne": true
+},
+{
+"icao": "KINL",
+"name": "Falls",
+"lat": 48.566,
+"lng": -93.398,
+"ne": true
+},
+{
+"icao": "KIPL",
+"name": "Imperial County",
+"lat": 32.834,
+"lng": -115.572,
+"ne": true
+},
+{
+"icao": "KJAN",
+"name": "Jackson-Evers",
+"lat": 32.3101,
+"lng": -90.0751,
+"ne": true
+},
+{
+"icao": "KJAX",
+"name": "Jacksonville",
+"lat": 30.4914,
+"lng": -81.6836,
+"ne": true
+},
+{
+"icao": "KLEX",
+"name": "Blue Grass",
+"lat": 38.0374,
+"lng": -84.5983,
+"ne": true
+},
+{
+"icao": "KLGA",
+"name": "LaGuardia",
+"lat": 40.7746,
+"lng": -73.872,
+"ne": true
+},
+{
+"icao": "KLIT",
+"name": "Bill and Hillary Clinton National",
+"lat": 34.7284,
+"lng": -92.2206,
+"ne": true
+},
+{
+"icao": "KLRD",
+"name": "Laredo",
+"lat": 27.5437,
+"lng": -99.4557,
+"ne": true
+},
+{
+"icao": "KMCO",
+"name": "Orlando",
+"lat": 28.4312,
+"lng": -81.3074,
+"ne": true
+},
+{
+"icao": "KMDW",
+"name": "Midway",
+"lat": 41.7883,
+"lng": -87.7421,
+"ne": true
+},
+{
+"icao": "KMEM",
+"name": "Memphis",
+"lat": 35.0444,
+"lng": -89.9816,
+"ne": true
+},
+{
+"icao": "KMGM",
+"name": "Montgomery Regional",
+"lat": 32.3046,
+"lng": -86.3903,
+"ne": true
+},
+{
+"icao": "KMHT",
+"name": "Manchester–Boston Regional",
+"lat": 42.9279,
+"lng": -71.4375,
+"ne": true
+},
+{
+"icao": "KMKE",
+"name": "Milwaukee Mitchell",
+"lat": 42.9479,
+"lng": -87.9021,
+"ne": true
+},
+{
+"icao": "KMOT",
+"name": "Minot",
+"lat": 48.2556,
+"lng": -101.2914,
+"ne": true
+},
+{
+"icao": "KMSN",
+"name": "Dane County Regional",
+"lat": 43.1363,
+"lng": -89.3458,
+"ne": true
+},
+{
+"icao": "KMSP",
+"name": "Minneapolis–Saint Paul",
+"lat": 44.882,
+"lng": -93.2081,
+"ne": true
+},
+{
+"icao": "KOKC",
+"name": "Will Rogers World",
+"lat": 35.3953,
+"lng": -97.5961,
+"ne": true
+},
+{
+"icao": "KONT",
+"name": "LA/Ontario",
+"lat": 34.0602,
+"lng": -117.5923,
+"ne": true
+},
+{
+"icao": "KORF",
+"name": "Norfolk",
+"lat": 36.8982,
+"lng": -76.2044,
+"ne": true
+},
+{
+"icao": "KPBI",
+"name": "Palm Beach",
+"lat": 26.6884,
+"lng": -80.0902,
+"ne": true
+},
+{
+"icao": "KPHL",
+"name": "Philadelphia",
+"lat": 39.8761,
+"lng": -75.243,
+"ne": true
+},
+{
+"icao": "KPIR",
+"name": "Pierre Regional",
+"lat": 44.3802,
+"lng": -100.2926,
+"ne": true
+},
+{
+"icao": "KPIT",
+"name": "Pittsburgh",
+"lat": 40.4961,
+"lng": -80.2561,
+"ne": true
+},
+{
+"icao": "KPVD",
+"name": "T. F. Green",
+"lat": 41.726,
+"lng": -71.4358,
+"ne": true
+},
+{
+"icao": "KRDU",
+"name": "Raleigh–Durham",
+"lat": 35.8752,
+"lng": -78.7914,
+"ne": true
+},
+{
+"icao": "KRIC",
+"name": "Richmond",
+"lat": 37.5083,
+"lng": -77.3331,
+"ne": true
+},
+{
+"icao": "KROC",
+"name": "Greater Rochester",
+"lat": 43.1276,
+"lng": -77.6652,
+"ne": true
+},
+{
+"icao": "KRSW",
+"name": "Southwest Florida",
+"lat": 26.5279,
+"lng": -81.7551,
+"ne": true
+},
+{
+"icao": "KSAN",
+"name": "San Diego",
+"lat": 32.7323,
+"lng": -117.1975,
+"ne": true
+},
+{
+"icao": "KSAT",
+"name": "San Antonio",
+"lat": 29.5266,
+"lng": -98.472,
+"ne": true
+},
+{
+"icao": "KSAV",
+"name": "Savannah/Hilton Head",
+"lat": 32.1356,
+"lng": -81.21,
+"ne": true
+},
+{
+"icao": "KSBA",
+"name": "Santa Barbara Municipal",
+"lat": 34.4257,
+"lng": -119.8366,
+"ne": true
+},
+{
+"icao": "KSGF",
+"name": "Springfield-Branson National",
+"lat": 37.2421,
+"lng": -93.3826,
+"ne": true
+},
+{
+"icao": "KSHV",
+"name": "Shreveport Regional",
+"lat": 32.4546,
+"lng": -93.8285,
+"ne": true
+},
+{
+"icao": "KSLE",
+"name": "McNary Field",
+"lat": 44.9105,
+"lng": -123.0079,
+"ne": true
+},
+{
+"icao": "KSMF",
+"name": "Sacramento",
+"lat": 38.6927,
+"lng": -121.5879,
+"ne": true
+},
+{
+"icao": "KSNA",
+"name": "John Wayne",
+"lat": 33.6795,
+"lng": -117.8615,
+"ne": true
+},
+{
+"icao": "KSYR",
+"name": "Syracuse Hancock",
+"lat": 43.1318,
+"lng": -76.1131,
+"ne": true
+},
+{
+"icao": "KTLH",
+"name": "Tallahassee",
+"lat": 30.3956,
+"lng": -84.345,
+"ne": true
+},
+{
+"icao": "KTPA",
+"name": "Tampa",
+"lat": 27.98,
+"lng": -82.5348,
+"ne": true
+},
+{
+"icao": "KTUL",
+"name": "Tulsa",
+"lat": 36.1901,
+"lng": -95.8899,
+"ne": true
+},
+{
+"icao": "KTUS",
+"name": "Tucson",
+"lat": 32.1204,
+"lng": -110.9377,
+"ne": true
+},
+{
+"icao": "KTYS",
+"name": "McGhee Tyson",
+"lat": 35.8057,
+"lng": -83.9899,
+"ne": true
+},
+{
+"icao": "LATI",
+"name": "Tirana International Airport Nënë Tereza",
+"lat": 41.4209,
+"lng": 19.715,
+"ne": true
+},
+{
+"icao": "LBBG",
+"name": "Burgas",
+"lat": 42.5671,
+"lng": 27.5164,
+"ne": true
+},
+{
+"icao": "LBSF",
+"name": "Sofia",
+"lat": 42.6892,
+"lng": 23.4025,
+"ne": true
+},
+{
+"icao": "LCPH",
+"name": "Paphos",
+"lat": 34.7134,
+"lng": 32.4832,
+"ne": true
+},
+{
+"icao": "LDZA",
+"name": "Zagreb",
+"lat": 45.7333,
+"lng": 16.0615,
+"ne": true
+},
+{
+"icao": "LEAL",
+"name": "Alicante",
+"lat": 38.2866,
+"lng": -0.5572,
+"ne": true
+},
+{
+"icao": "LEAM",
+"name": "Almería",
+"lat": 36.8478,
+"lng": -2.3716,
+"ne": true
+},
+{
+"icao": "LEBB",
+"name": "Bilbao",
+"lat": 43.3051,
+"lng": -2.9061,
+"ne": true
+},
+{
+"icao": "LEBL",
+"name": "Josep Tarradellas Airport Barcelona-El Prat",
+"lat": 41.3032,
+"lng": 2.078,
+"ne": true
+},
+{
+"icao": "LEMD",
+"name": "Adolfo Suarez Madrid-Barajas",
+"lat": 40.4681,
+"lng": -3.569,
+"ne": true
+},
+{
+"icao": "LEPA",
+"name": "Palma de Mallorca",
+"lat": 39.5658,
+"lng": 2.73,
+"ne": true
+},
+{
+"icao": "LEVC",
+"name": "Valencia",
+"lat": 39.4915,
+"lng": -0.4735,
+"ne": true
+},
+{
+"icao": "LFBD",
+"name": "Bordeaux–Mérignac",
+"lat": 44.8321,
+"lng": -0.7018,
+"ne": true
+},
+{
+"icao": "LFBO",
+"name": "Toulouse–Blagnac",
+"lat": 43.6305,
+"lng": 1.3735,
+"ne": true
+},
+{
+"icao": "LFLI",
+"name": "Annemasse Aerodrome",
+"lat": 46.1957,
+"lng": 6.2649,
+"ne": true
+},
+{
+"icao": "LFLL",
+"name": "Lyon-Saint Exupéry",
+"lat": 45.721,
+"lng": 5.0759,
+"ne": true
+},
+{
+"icao": "LFMD",
+"name": "Cannes – Mandelieu",
+"lat": 43.5461,
+"lng": 6.9543,
+"ne": true
+},
+{
+"icao": "LFML",
+"name": "Marseille Provence",
+"lat": 43.4411,
+"lng": 5.2214,
+"ne": true
+},
+{
+"icao": "LFPG",
+"name": "Paris-Charles de Gaulle",
+"lat": 49.0144,
+"lng": 2.5419,
+"ne": true
+},
+{
+"icao": "LFPO",
+"name": "Orly",
+"lat": 48.7313,
+"lng": 2.3674,
+"ne": true
+},
+{
+"icao": "LFQQ",
+"name": "Lille",
+"lat": 50.5716,
+"lng": 3.106,
+"ne": true
+},
+{
+"icao": "LFRG",
+"name": "Deauville – Saint-Gatien",
+"lat": 49.3617,
+"lng": 0.1587,
+"ne": true
+},
+{
+"icao": "LFST",
+"name": "Strasbourg",
+"lat": 48.5447,
+"lng": 7.6278,
+"ne": true
+},
+{
+"icao": "LGAV",
+"name": "Athens",
+"lat": 37.9362,
+"lng": 23.9471,
+"ne": true
+},
+{
+"icao": "LGIR",
+"name": "Heraklion",
+"lat": 35.3369,
+"lng": 25.1741,
+"ne": true
+},
+{
+"icao": "LGKR",
+"name": "Corfu",
+"lat": 39.6068,
+"lng": 19.9148,
+"ne": true
+},
+{
+"icao": "LGTS",
+"name": "Thessaloniki Airport \"Makedonia\"",
+"lat": 40.5239,
+"lng": 22.9764,
+"ne": true
+},
+{
+"icao": "LHBP",
+"name": "Budapest Ferenc Liszt",
+"lat": 47.4333,
+"lng": 19.2622,
+"ne": true
+},
+{
+"icao": "LICC",
+"name": "Catania-Fontanarossa",
+"lat": 37.4701,
+"lng": 15.0675,
+"ne": true
+},
+{
+"icao": "LICJ",
+"name": "Falcone–Borsellino",
+"lat": 38.1863,
+"lng": 13.1055,
+"ne": true
+},
+{
+"icao": "LIMC",
+"name": "Milan–Malpensa",
+"lat": 45.6274,
+"lng": 8.713,
+"ne": true
+},
+{
+"icao": "LIME",
+"name": "Il Caravaggio",
+"lat": 45.6655,
+"lng": 9.6989,
+"ne": true
+},
+{
+"icao": "LIMF",
+"name": "Turin",
+"lat": 45.1917,
+"lng": 7.6442,
+"ne": true
+},
+{
+"icao": "LIMG",
+"name": "Albenga Airport-Riviera",
+"lat": 44.0459,
+"lng": 8.1231,
+"ne": true
+},
+{
+"icao": "LIML",
+"name": "Linate",
+"lat": 45.4604,
+"lng": 9.28,
+"ne": true
+},
+{
+"icao": "LIPZ",
+"name": "Venice Marco Polo",
+"lat": 45.5048,
+"lng": 12.3411,
+"ne": true
+},
+{
+"icao": "LIRF",
+"name": "Leonardo da Vinci–Fiumicino",
+"lat": 41.7951,
+"lng": 12.2501,
+"ne": true
+},
+{
+"icao": "LIRN",
+"name": "Naples",
+"lat": 40.8781,
+"lng": 14.2828,
+"ne": true
+},
+{
+"icao": "LJLJ",
+"name": "Ljubljana Jože Pučnik",
+"lat": 46.2305,
+"lng": 14.4548,
+"ne": true
+},
+{
+"icao": "LKPR",
+"name": "Prague Václav Havel",
+"lat": 50.1077,
+"lng": 14.2675,
+"ne": true
+},
+{
+"icao": "LLBG",
+"name": "Ben Gurion",
+"lat": 32.0007,
+"lng": 34.8708,
+"ne": true
+},
+{
+"icao": "LMML",
+"name": "Malta",
+"lat": 35.8489,
+"lng": 14.4953,
+"ne": true
+},
+{
+"icao": "LOWW",
+"name": "Wien-Schwechat",
+"lat": 48.1198,
+"lng": 16.5608,
+"ne": true
+},
+{
+"icao": "LPCS",
+"name": "Cascais Municipal Aerodrome",
+"lat": 38.7235,
+"lng": -9.3546,
+"ne": true
+},
+{
+"icao": "LPMA",
+"name": "Madeira",
+"lat": 32.6934,
+"lng": -16.7756,
+"ne": true
+},
+{
+"icao": "LPPD",
+"name": "João Paulo II",
+"lat": 37.7433,
+"lng": -25.697,
+"ne": true
+},
+{
+"icao": "LPPR",
+"name": "Francisco de Sá Carneiro",
+"lat": 41.2369,
+"lng": -8.6713,
+"ne": true
+},
+{
+"icao": "LPPT",
+"name": "Lisbon",
+"lat": 38.7708,
+"lng": -9.1307,
+"ne": true
+},
+{
+"icao": "LQSA",
+"name": "Sarajevo",
+"lat": 43.8259,
+"lng": 18.3366,
+"ne": true
+},
+{
+"icao": "LRBS",
+"name": "Aurel Vlaicu",
+"lat": 44.497,
+"lng": 26.0857,
+"ne": true
+},
+{
+"icao": "LRCL",
+"name": "Cluj",
+"lat": 46.7827,
+"lng": 23.687,
+"ne": true
+},
+{
+"icao": "LSGG",
+"name": "Geneva",
+"lat": 46.231,
+"lng": 6.1079,
+"ne": true
+},
+{
+"icao": "LTAC",
+"name": "Ankara Esenboğa",
+"lat": 40.1151,
+"lng": 32.993,
+"ne": true
+},
+{
+"icao": "LTAF",
+"name": "Adana Şakirpaşa",
+"lat": 36.9852,
+"lng": 35.297,
+"ne": true
+},
+{
+"icao": "LTAI",
+"name": "Antalya",
+"lat": 36.9153,
+"lng": 30.8026,
+"ne": true
+},
+{
+"icao": "LTAJ",
+"name": "Oğuzeli",
+"lat": 36.9454,
+"lng": 37.4738,
+"ne": true
+},
+{
+"icao": "LTBA",
+"name": "Atatürk",
+"lat": 40.9778,
+"lng": 28.8195,
+"ne": true
+},
+{
+"icao": "LTBJ",
+"name": "İzmir Adnan Menderes",
+"lat": 38.2912,
+"lng": 27.1493,
+"ne": true
+},
+{
+"icao": "LTBR",
+"name": "Yenişehir",
+"lat": 40.2555,
+"lng": 29.5449,
+"ne": true
+},
+{
+"icao": "LTFJ",
+"name": "Istanbul Sabiha Gökçen",
+"lat": 40.9043,
+"lng": 29.3096,
+"ne": true
+},
+{
+"icao": "LUKK",
+"name": "Chișinău",
+"lat": 46.9342,
+"lng": 28.936,
+"ne": true
+},
+{
+"icao": "LWSK",
+"name": "Skopje",
+"lat": 41.9565,
+"lng": 21.6282,
+"ne": true
+},
+{
+"icao": "LXGB",
+"name": "Gibraltar",
+"lat": 36.1513,
+"lng": -5.3468,
+"ne": true
+},
+{
+"icao": "LYBE",
+"name": "Belgrade Nikola Tesla",
+"lat": 44.8191,
+"lng": 20.2913,
+"ne": true
+},
+{
+"icao": "LYPG",
+"name": "Podgorica",
+"lat": 42.3679,
+"lng": 19.2467,
+"ne": true
+},
+{
+"icao": "LZIB",
+"name": "M. R. Štefánik",
+"lat": 48.1698,
+"lng": 17.2,
+"ne": true
+},
+{
+"icao": "MBGT",
+"name": "JAGS McCartney",
+"lat": 21.4421,
+"lng": -71.1461,
+"ne": true
+},
+{
+"icao": "MDPC",
+"name": "Punta Cana",
+"lat": 18.563,
+"lng": -68.3632,
+"ne": true
+},
+{
+"icao": "MDSD",
+"name": "Las Américas",
+"lat": 18.4302,
+"lng": -69.6765,
+"ne": true
+},
+{
+"icao": "MDST",
+"name": "Cibao",
+"lat": 19.4659,
+"lng": -70.6942,
+"ne": true
+},
+{
+"icao": "MGGT",
+"name": "La Aurora",
+"lat": 14.5882,
+"lng": -90.5302,
+"ne": true
+},
+{
+"icao": "MGTK",
+"name": "Mundo Maya",
+"lat": 16.915,
+"lng": -89.8778,
+"ne": true
+},
+{
+"icao": "MHLC",
+"name": "Golosón",
+"lat": 15.7452,
+"lng": -86.8515,
+"ne": true
+},
+{
+"icao": "MHLM",
+"name": "Ramón Villeda Morales",
+"lat": 15.4559,
+"lng": -87.9272,
+"ne": true
+},
+{
+"icao": "MHTG",
+"name": "Toncontín",
+"lat": 14.06,
+"lng": -87.2192,
+"ne": true
+},
+{
+"icao": "MKJP",
+"name": "Norman Manley",
+"lat": 17.9376,
+"lng": -76.7787,
+"ne": true
+},
+{
+"icao": "MKJS",
+"name": "Sangster",
+"lat": 18.5012,
+"lng": -77.9184,
+"ne": true
+},
+{
+"icao": "MMAA",
+"name": "General Juan N. Álvarez",
+"lat": 16.762,
+"lng": -99.7545,
+"ne": true
+},
+{
+"icao": "MMAN",
+"name": "Del Norte",
+"lat": 25.8599,
+"lng": -100.2384,
+"ne": true
+},
+{
+"icao": "MMAS",
+"name": "Lic. Jesús Terán Peredo",
+"lat": 21.7013,
+"lng": -102.3141,
+"ne": true
+},
+{
+"icao": "MMCL",
+"name": "Federal de Bachigualato",
+"lat": 24.7668,
+"lng": -107.4699,
+"ne": true
+},
+{
+"icao": "MMCM",
+"name": "Chetumal",
+"lat": 18.5064,
+"lng": -88.3243,
+"ne": true
+},
+{
+"icao": "MMCP",
+"name": "Ing. Alberto Acuña Ongay",
+"lat": 19.8142,
+"lng": -90.5036,
+"ne": true
+},
+{
+"icao": "MMCS",
+"name": "Abraham González",
+"lat": 31.6358,
+"lng": -106.4358,
+"ne": true
+},
+{
+"icao": "MMCU",
+"name": "General Roberto Fierro Villalobos",
+"lat": 28.704,
+"lng": -105.9692,
+"ne": true
+},
+{
+"icao": "MMCZ",
+"name": "Cozumel",
+"lat": 20.5116,
+"lng": -86.9304,
+"ne": true
+},
+{
+"icao": "MMDO",
+"name": "General Guadalupe Victoria",
+"lat": 24.1262,
+"lng": -104.5338,
+"ne": true
+},
+{
+"icao": "MMES",
+"name": "Ensenada",
+"lat": 31.7977,
+"lng": -116.5957,
+"ne": true
+},
+{
+"icao": "MMGL",
+"name": "Miguel Hidalgo y Costilla Guadalajara",
+"lat": 20.5247,
+"lng": -103.3008,
+"ne": true
+},
+{
+"icao": "MMGM",
+"name": "General José María Yáñez",
+"lat": 27.9695,
+"lng": -110.9217,
+"ne": true
+},
+{
+"icao": "MMHO",
+"name": "General Ignacio Pesqueira García",
+"lat": 29.0901,
+"lng": -111.0519,
+"ne": true
+},
+{
+"icao": "MMIO",
+"name": "Plan de Guadalupe",
+"lat": 25.548,
+"lng": -100.9323,
+"ne": true
+},
+{
+"icao": "MMLM",
+"name": "Valle del Fuerte Federal",
+"lat": 25.6885,
+"lng": -109.0827,
+"ne": true
+},
+{
+"icao": "MMLO",
+"name": "Del Bajío",
+"lat": 20.9859,
+"lng": -101.4788,
+"ne": true
+},
+{
+"icao": "MMLP",
+"name": "Manuel Márquez de León",
+"lat": 24.0761,
+"lng": -110.3672,
+"ne": true
+},
+{
+"icao": "MMMA",
+"name": "General Servando Canales",
+"lat": 25.7708,
+"lng": -97.5308,
+"ne": true
+},
+{
+"icao": "MMMD",
+"name": "Manuel Crescencio Rejón",
+"lat": 20.9339,
+"lng": -89.663,
+"ne": true
+},
+{
+"icao": "MMML",
+"name": "General Rodolfo Sánchez Taboada",
+"lat": 32.6286,
+"lng": -115.2479,
+"ne": true
+},
+{
+"icao": "MMMV",
+"name": "Venustiano Carranza",
+"lat": 26.9554,
+"lng": -101.465,
+"ne": true
+},
+{
+"icao": "MMMZ",
+"name": "General Rafael Buelna",
+"lat": 23.1666,
+"lng": -106.27,
+"ne": true
+},
+{
+"icao": "MMNG",
+"name": "Nogales",
+"lat": 31.2255,
+"lng": -110.9727,
+"ne": true
+},
+{
+"icao": "MMNL",
+"name": "Quetzalcóatl",
+"lat": 27.4497,
+"lng": -99.568,
+"ne": true
+},
+{
+"icao": "MMOX",
+"name": "Xoxocotlán",
+"lat": 17.0006,
+"lng": -96.7218,
+"ne": true
+},
+{
+"icao": "MMPB",
+"name": "Hermanos Serdán",
+"lat": 19.1638,
+"lng": -98.3758,
+"ne": true
+},
+{
+"icao": "MMQT",
+"name": "Querétaro",
+"lat": 20.6225,
+"lng": -100.1874,
+"ne": true
+},
+{
+"icao": "MMSD",
+"name": "Los Cabos",
+"lat": 23.1627,
+"lng": -109.7179,
+"ne": true
+},
+{
+"icao": "MMSP",
+"name": "San Luis Potosí",
+"lat": 22.2557,
+"lng": -100.9365,
+"ne": true
+},
+{
+"icao": "MMTC",
+"name": "Francisco Sarabia",
+"lat": 25.5632,
+"lng": -103.3988,
+"ne": true
+},
+{
+"icao": "MMTJ",
+"name": "Tijuana",
+"lat": 32.5461,
+"lng": -116.9755,
+"ne": true
+},
+{
+"icao": "MMTM",
+"name": "General Francisco Javier Mina",
+"lat": 22.2893,
+"lng": -97.8698,
+"ne": true
+},
+{
+"icao": "MMTO",
+"name": "Lic. Adolfo López Mateos",
+"lat": 19.3387,
+"lng": -99.5706,
+"ne": true
+},
+{
+"icao": "MMTP",
+"name": "Tapachula",
+"lat": 14.7911,
+"lng": -92.37,
+"ne": true
+},
+{
+"icao": "MMUN",
+"name": "Cancún",
+"lat": 21.0402,
+"lng": -86.8744,
+"ne": true
+},
+{
+"icao": "MMVA",
+"name": "Carlos Rovirosa Pérez",
+"lat": 17.9931,
+"lng": -92.8191,
+"ne": true
+},
+{
+"icao": "MMVR",
+"name": "General Heriberto Jara",
+"lat": 19.1424,
+"lng": -96.1836,
+"ne": true
+},
+{
+"icao": "MMZO",
+"name": "Playa de Oro",
+"lat": 19.1481,
+"lng": -104.5601,
+"ne": true
+},
+{
+"icao": "MNMG",
+"name": "Augusto C. Sandino",
+"lat": 12.1446,
+"lng": -86.1713,
+"ne": true
+},
+{
+"icao": "MPDA",
+"name": "Enrique Malek",
+"lat": 8.3913,
+"lng": -82.4318,
+"ne": true
+},
+{
+"icao": "MPTO",
+"name": "Tocumen",
+"lat": 9.0669,
+"lng": -79.3871,
+"ne": true
+},
+{
+"icao": "MRPV",
+"name": "Tobías Bolaños",
+"lat": 9.9583,
+"lng": -84.1386,
+"ne": true
+},
+{
+"icao": "MSLP",
+"name": "Monseñor Óscar Arnulfo Romero",
+"lat": 13.4447,
+"lng": -89.0572,
+"ne": true
+},
+{
+"icao": "MTPP",
+"name": "Toussaint Louverture",
+"lat": 18.5757,
+"lng": -72.2945,
+"ne": true
+},
+{
+"icao": "MUCM",
+"name": "Ignacio Agramonte",
+"lat": 21.4247,
+"lng": -77.8451,
+"ne": true
+},
+{
+"icao": "MUCU",
+"name": "Antonio Maceo",
+"lat": 19.9724,
+"lng": -75.8399,
+"ne": true
+},
+{
+"icao": "MUHA",
+"name": "José Martí",
+"lat": 22.9974,
+"lng": -82.4074,
+"ne": true
+},
+{
+"icao": "MUVR",
+"name": "Juan Gualberto Gómez",
+"lat": 23.0395,
+"lng": -81.4367,
+"ne": true
+},
+{
+"icao": "MWCB",
+"name": "Charles Kirkconnell",
+"lat": 19.6899,
+"lng": -79.8795,
+"ne": true
+},
+{
+"icao": "MWCR",
+"name": "Owen Roberts",
+"lat": 19.2959,
+"lng": -81.3577,
+"ne": true
+},
+{
+"icao": "MYEF",
+"name": "Exuma",
+"lat": 23.5639,
+"lng": -75.8726,
+"ne": true
+},
+{
+"icao": "MYGF",
+"name": "Grand Bahama",
+"lat": 26.5482,
+"lng": -78.7039,
+"ne": true
+},
+{
+"icao": "MYNN",
+"name": "Lynden Pindling",
+"lat": 25.0487,
+"lng": -77.4648,
+"ne": true
+},
+{
+"icao": "MZBZ",
+"name": "Philip S. W. Goldson",
+"lat": 17.5361,
+"lng": -88.3082,
+"ne": true
+},
+{
+"icao": "NCRG",
+"name": "Rarotonga",
+"lat": -21.201,
+"lng": -159.7982,
+"ne": true
+},
+{
+"icao": "NFNA",
+"name": "Nausori",
+"lat": -18.0459,
+"lng": 178.56,
+"ne": true
+},
+{
+"icao": "NFTF",
+"name": "Fuaʻamotu",
+"lat": -21.2486,
+"lng": -175.1356,
+"ne": true
+},
+{
+"icao": "NFTV",
+"name": "Vava'u",
+"lat": -18.586,
+"lng": -173.9681,
+"ne": true
+},
+{
+"icao": "NGFU",
+"name": "Funafuti",
+"lat": -8.5249,
+"lng": 179.1954,
+"ne": true
+},
+{
+"icao": "NGTA",
+"name": "Bonriki",
+"lat": 1.3807,
+"lng": 173.146,
+"ne": true
+},
+{
+"icao": "NIUE",
+"name": "Niue",
+"lat": -19.0767,
+"lng": -169.9261,
+"ne": true
+},
+{
+"icao": "NTAA",
+"name": "Faa'a",
+"lat": -17.5595,
+"lng": -149.6098,
+"ne": true
+},
+{
+"icao": "NVSS",
+"name": "Santo-Pekoa",
+"lat": -15.5055,
+"lng": 167.2209,
+"ne": true
+},
+{
+"icao": "NVVV",
+"name": "Bauerfield",
+"lat": -17.7017,
+"lng": 168.3196,
+"ne": true
+},
+{
+"icao": "NWWW",
+"name": "La Tontouta",
+"lat": -22.0136,
+"lng": 166.2172,
+"ne": true
+},
+{
+"icao": "NZCH",
+"name": "Christchurch",
+"lat": -43.4885,
+"lng": 172.5387,
+"ne": true
+},
+{
+"icao": "NZDN",
+"name": "Dunedin",
+"lat": -45.9234,
+"lng": 170.2,
+"ne": true
+},
+{
+"icao": "NZHN",
+"name": "Hamilton",
+"lat": -37.8658,
+"lng": 175.3362,
+"ne": true
+},
+{
+"icao": "NZPM",
+"name": "Palmerston North",
+"lat": -40.3233,
+"lng": 175.6213,
+"ne": true
+},
+{
+"icao": "NZWN",
+"name": "Wellington",
+"lat": -41.329,
+"lng": 174.8117,
+"ne": true
+},
+{
+"icao": "OAKB",
+"name": "Hamid Karzai",
+"lat": 34.5634,
+"lng": 69.2101,
+"ne": true
+},
+{
+"icao": "OBBI",
+"name": "Bahrain",
+"lat": 26.2697,
+"lng": 50.626,
+"ne": true
+},
+{
+"icao": "OEJN",
+"name": "King Abdulaziz",
+"lat": 21.6707,
+"lng": 39.1505,
+"ne": true
+},
+{
+"icao": "OEMA",
+"name": "Prince Mohammad Bin Abdulaziz",
+"lat": 24.5442,
+"lng": 39.6991,
+"ne": true
+},
+{
+"icao": "OERK",
+"name": "King Khalid",
+"lat": 24.959,
+"lng": 46.7018,
+"ne": true
+},
+{
+"icao": "OIAW",
+"name": "Ahvaz",
+"lat": 31.3432,
+"lng": 48.7471,
+"ne": true
+},
+{
+"icao": "OICC",
+"name": "Kermanshah",
+"lat": 34.3464,
+"lng": 47.1566,
+"ne": true
+},
+{
+"icao": "OIFM",
+"name": "Isfahan",
+"lat": 32.7461,
+"lng": 51.8764,
+"ne": true
+},
+{
+"icao": "OIII",
+"name": "Mehrabad",
+"lat": 35.6914,
+"lng": 51.3208,
+"ne": true
+},
+{
+"icao": "OIKB",
+"name": "Bandar Abbas",
+"lat": 27.2103,
+"lng": 56.3689,
+"ne": true
+},
+{
+"icao": "OIMM",
+"name": "Mashhad",
+"lat": 36.2276,
+"lng": 59.6422,
+"ne": true
+},
+{
+"icao": "OISS",
+"name": "Shiraz",
+"lat": 29.5458,
+"lng": 52.5898,
+"ne": true
+},
+{
+"icao": "OITT",
+"name": "Tabriz",
+"lat": 38.1311,
+"lng": 46.2447,
+"ne": true
+},
+{
+"icao": "OIZH",
+"name": "Zahedan",
+"lat": 29.4753,
+"lng": 60.9007,
+"ne": true
+},
+{
+"icao": "OJAI",
+"name": "Queen Alia",
+"lat": 31.7227,
+"lng": 35.9897,
+"ne": true
+},
+{
+"icao": "OJAM",
+"name": "Amman Civil",
+"lat": 31.9742,
+"lng": 35.9841,
+"ne": true
+},
+{
+"icao": "OKBK",
+"name": "Kuwait",
+"lat": 29.2397,
+"lng": 47.9715,
+"ne": true
+},
+{
+"icao": "OLBA",
+"name": "Beirut–Rafic Hariri",
+"lat": 33.8254,
+"lng": 35.4931,
+"ne": true
+},
+{
+"icao": "OMAA",
+"name": "Abu Dhabi",
+"lat": 24.4272,
+"lng": 54.6463,
+"ne": true
+},
+{
+"icao": "OMDB",
+"name": "Dubai",
+"lat": 25.2526,
+"lng": 55.3541,
+"ne": true
+},
+{
+"icao": "OMSJ",
+"name": "Sharjah",
+"lat": 25.3212,
+"lng": 55.5205,
+"ne": true
+},
+{
+"icao": "OOMS",
+"name": "Muscat",
+"lat": 23.5886,
+"lng": 58.2905,
+"ne": true
+},
+{
+"icao": "OPKC",
+"name": "Jinnah",
+"lat": 24.8985,
+"lng": 67.1521,
+"ne": true
+},
+{
+"icao": "OPLA",
+"name": "Allama Iqbal",
+"lat": 31.5206,
+"lng": 74.4109,
+"ne": true
+},
+{
+"icao": "OPPS",
+"name": "Bacha Khan",
+"lat": 33.9914,
+"lng": 71.5188,
+"ne": true
+},
+{
+"icao": "OPQS",
+"name": "Dhamial Army Airbase",
+"lat": 33.5614,
+"lng": 73.032,
+"ne": true
+},
+{
+"icao": "OPQT",
+"name": "Quetta",
+"lat": 30.249,
+"lng": 66.9487,
+"ne": true
+},
+{
+"icao": "OPTU",
+"name": "Turbat",
+"lat": 25.9888,
+"lng": 63.0279,
+"ne": true
+},
+{
+"icao": "ORBI",
+"name": "Baghdad",
+"lat": 33.2682,
+"lng": 44.2289,
+"ne": true
+},
+{
+"icao": "ORBM",
+"name": "Mosul",
+"lat": 36.3086,
+"lng": 43.1458,
+"ne": true
+},
+{
+"icao": "ORMM",
+"name": "Basra",
+"lat": 30.5528,
+"lng": 47.6684,
+"ne": true
+},
+{
+"icao": "OSAP",
+"name": "Aleppo",
+"lat": 36.1846,
+"lng": 37.2273,
+"ne": true
+},
+{
+"icao": "OSDI",
+"name": "Damascus",
+"lat": 33.4114,
+"lng": 36.5129,
+"ne": true
+},
+{
+"icao": "OSLK",
+"name": "Bassel Al-Assad",
+"lat": 35.4073,
+"lng": 35.9442,
+"ne": true
+},
+{
+"icao": "OYAA",
+"name": "Aden",
+"lat": 12.8278,
+"lng": 45.0306,
+"ne": true
+},
+{
+"icao": "OYHD",
+"name": "Hodeida",
+"lat": 14.7553,
+"lng": 42.9711,
+"ne": true
+},
+{
+"icao": "OYSN",
+"name": "Sana'a",
+"lat": 15.4739,
+"lng": 44.2246,
+"ne": true
+},
+{
+"icao": "OYTZ",
+"name": "Ta'izz",
+"lat": 13.6855,
+"lng": 44.1348,
+"ne": true
+},
+{
+"icao": "PABE",
+"name": "Bethel",
+"lat": 60.7787,
+"lng": -161.839,
+"ne": true
+},
+{
+"icao": "PABR",
+"name": "Wiley Post–Will Rogers Memorial",
+"lat": 71.2893,
+"lng": -156.7718,
+"ne": true
+},
+{
+"icao": "PADQ",
+"name": "Kodiak",
+"lat": 57.7486,
+"lng": -152.4856,
+"ne": true
+},
+{
+"icao": "PAJN",
+"name": "Juneau",
+"lat": 58.3589,
+"lng": -134.5836,
+"ne": true
+},
+{
+"icao": "PASC",
+"name": "Deadhorse",
+"lat": 70.1975,
+"lng": -148.4579,
+"ne": true
+},
+{
+"icao": "PASI",
+"name": "Sitka Rocky Gutierrez",
+"lat": 57.0535,
+"lng": -135.3657,
+"ne": true
+},
+{
+"icao": "PGRO",
+"name": "Rota",
+"lat": 14.1718,
+"lng": 145.244,
+"ne": true
+},
+{
+"icao": "PGSN",
+"name": "Saipan",
+"lat": 15.1215,
+"lng": 145.7237,
+"ne": true
+},
+{
+"icao": "PGUM",
+"name": "Antonio B. Won Pat",
+"lat": 13.4926,
+"lng": 144.8058,
+"ne": true
+},
+{
+"icao": "PHKO",
+"name": "Ellison Onizuka Kona",
+"lat": 19.7371,
+"lng": -156.0409,
+"ne": true
+},
+{
+"icao": "PHLI",
+"name": "Lihue",
+"lat": 21.9781,
+"lng": -159.3491,
+"ne": true
+},
+{
+"icao": "PHTO",
+"name": "Hilo",
+"lat": 19.7148,
+"lng": -155.0396,
+"ne": true
+},
+{
+"icao": "PKMJ",
+"name": "Marshall Islands",
+"lat": 7.0681,
+"lng": 171.2819,
+"ne": true
+},
+{
+"icao": "PLCH",
+"name": "Cassidy",
+"lat": 1.9862,
+"lng": -157.3498,
+"ne": true
+},
+{
+"icao": "PTKK",
+"name": "Chuuk",
+"lat": 7.4576,
+"lng": 151.842,
+"ne": true
+},
+{
+"icao": "PTPN",
+"name": "Pohnpei",
+"lat": 6.9813,
+"lng": 158.2033,
+"ne": true
+},
+{
+"icao": "PTRO",
+"name": "Roman Tmetuchl",
+"lat": 7.3645,
+"lng": 134.533,
+"ne": true
+},
+{
+"icao": "PTSA",
+"name": "Kosrae",
+"lat": 5.352,
+"lng": 162.957,
+"ne": true
+},
+{
+"icao": "PTYA",
+"name": "Yap",
+"lat": 9.4979,
+"lng": 138.0864,
+"ne": true
+},
+{
+"icao": "RCKH",
+"name": "Kaohsiung",
+"lat": 22.5717,
+"lng": 120.3452,
+"ne": true
+},
+{
+"icao": "RCTP",
+"name": "Taoyuan",
+"lat": 25.0767,
+"lng": 121.2314,
+"ne": true
+},
+{
+"icao": "RJAA",
+"name": "Narita",
+"lat": 35.7641,
+"lng": 140.3844,
+"ne": true
+},
+{
+"icao": "RJBB",
+"name": "Kansai",
+"lat": 34.4348,
+"lng": 135.2445,
+"ne": true
+},
+{
+"icao": "RJBH",
+"name": "Hiroshima-Nishi",
+"lat": 34.3714,
+"lng": 132.4194,
+"ne": true
+},
+{
+"icao": "RJCO",
+"name": "Okadama",
+"lat": 43.1106,
+"lng": 141.3821,
+"ne": true
+},
+{
+"icao": "RJFF",
+"name": "Fukuoka",
+"lat": 33.5848,
+"lng": 130.4442,
+"ne": true
+},
+{
+"icao": "RJGG",
+"name": "Chubu Centrair",
+"lat": 34.859,
+"lng": 136.8148,
+"ne": true
+},
+{
+"icao": "RJNA",
+"name": "Nagoya Airfield",
+"lat": 35.2541,
+"lng": 136.9196,
+"ne": true
+},
+{
+"icao": "RJOO",
+"name": "Osaka",
+"lat": 34.7902,
+"lng": 135.4425,
+"ne": true
+},
+{
+"icao": "RJSS",
+"name": "Sendai",
+"lat": 38.1382,
+"lng": 140.9302,
+"ne": true
+},
+{
+"icao": "RKNY",
+"name": "Yangyang",
+"lat": 38.0588,
+"lng": 128.663,
+"ne": true
+},
+{
+"icao": "RKPC",
+"name": "Jeju",
+"lat": 33.5247,
+"lng": 126.4916,
+"ne": true
+},
+{
+"icao": "RKPK",
+"name": "Gimhae",
+"lat": 35.1703,
+"lng": 128.9488,
+"ne": true
+},
+{
+"icao": "RKPU",
+"name": "Ulsan",
+"lat": 35.5929,
+"lng": 129.3557,
+"ne": true
+},
+{
+"icao": "RKSI",
+"name": "Incheon",
+"lat": 37.4492,
+"lng": 126.4509,
+"ne": true
+},
+{
+"icao": "RKSS",
+"name": "Gimpo",
+"lat": 37.5573,
+"lng": 126.8024,
+"ne": true
+},
+{
+"icao": "RKTN",
+"name": "Daegu",
+"lat": 35.8999,
+"lng": 128.6375,
+"ne": true
+},
+{
+"icao": "RKTU",
+"name": "Cheongju",
+"lat": 36.722,
+"lng": 127.4959,
+"ne": true
+},
+{
+"icao": "RPLC",
+"name": "Clark",
+"lat": 15.1876,
+"lng": 120.5508,
+"ne": true
+},
+{
+"icao": "RPLI",
+"name": "Laoag",
+"lat": 18.1824,
+"lng": 120.5339,
+"ne": true
+},
+{
+"icao": "RPLL",
+"name": "Ninoy Aquino",
+"lat": 14.5068,
+"lng": 121.0041,
+"ne": true
+},
+{
+"icao": "RPMD",
+"name": "Francisco Bangoy",
+"lat": 7.1305,
+"lng": 125.6451,
+"ne": true
+},
+{
+"icao": "RPMZ",
+"name": "Zamboanga",
+"lat": 6.9198,
+"lng": 122.0624,
+"ne": true
+},
+{
+"icao": "RPVM",
+"name": "Mactan–Cebu",
+"lat": 10.3159,
+"lng": 123.9791,
+"ne": true
+},
+{
+"icao": "SAAR",
+"name": "Rosario – Islas Malvinas",
+"lat": -32.9162,
+"lng": -60.7801,
+"ne": true
+},
+{
+"icao": "SACO",
+"name": "Ingeniero Aeronáutico Ambrosio L.V. Taravella",
+"lat": -31.3157,
+"lng": -64.2123,
+"ne": true
+},
+{
+"icao": "SADL",
+"name": "La Plata",
+"lat": -34.9655,
+"lng": -57.8954,
+"ne": true
+},
+{
+"icao": "SAEZ",
+"name": "Ministro Pistarini",
+"lat": -34.8136,
+"lng": -58.5412,
+"ne": true
+},
+{
+"icao": "SAME",
+"name": "Governor Francisco Gabrielli",
+"lat": -32.8278,
+"lng": -68.7985,
+"ne": true
+},
+{
+"icao": "SANT",
+"name": "Teniente Benjamín Matienzo",
+"lat": -26.8357,
+"lng": -65.1081,
+"ne": true
+},
+{
+"icao": "SASA",
+"name": "Martín Miguel de Güemes",
+"lat": -24.8444,
+"lng": -65.4785,
+"ne": true
+},
+{
+"icao": "SASJ",
+"name": "Gobernador Horacio Guzmán",
+"lat": -24.3861,
+"lng": -65.0938,
+"ne": true
+},
+{
+"icao": "SAWA",
+"name": "Comandante Armando Tola",
+"lat": -50.2839,
+"lng": -72.0539,
+"ne": true
+},
+{
+"icao": "SAWE",
+"name": "Rio Grande",
+"lat": -53.7815,
+"lng": -67.753,
+"ne": true
+},
+{
+"icao": "SAWG",
+"name": "Piloto Civil Norberto Fernández",
+"lat": -51.6117,
+"lng": -69.3065,
+"ne": true
+},
+{
+"icao": "SAZM",
+"name": "Astor Piazzolla",
+"lat": -37.9332,
+"lng": -57.5816,
+"ne": true
+},
+{
+"icao": "SAZS",
+"name": "San Carlos de Bariloche",
+"lat": -41.146,
+"lng": -71.1614,
+"ne": true
+},
+{
+"icao": "SBBE",
+"name": "Val de Cans",
+"lat": -1.3897,
+"lng": -48.4796,
+"ne": true
+},
+{
+"icao": "SBBR",
+"name": "Brasília",
+"lat": -15.87,
+"lng": -47.9208,
+"ne": true
+},
+{
+"icao": "SBBV",
+"name": "Boa Vista",
+"lat": 2.8412,
+"lng": -60.6922,
+"ne": true
+},
+{
+"icao": "SBCB",
+"name": "Cabo Frio",
+"lat": -22.9256,
+"lng": -42.0793,
+"ne": true
+},
+{
+"icao": "SBCF",
+"name": "Tancredo Neves",
+"lat": -19.6328,
+"lng": -43.9636,
+"ne": true
+},
+{
+"icao": "SBCG",
+"name": "Campo Grande",
+"lat": -20.4573,
+"lng": -54.669,
+"ne": true
+},
+{
+"icao": "SBCR",
+"name": "Corumbá",
+"lat": -19.0142,
+"lng": -57.6636,
+"ne": true
+},
+{
+"icao": "SBCT",
+"name": "Afonso Pena",
+"lat": -25.536,
+"lng": -49.1737,
+"ne": true
+},
+{
+"icao": "SBCY",
+"name": "Marechal Rondon",
+"lat": -15.6511,
+"lng": -56.1202,
+"ne": true
+},
+{
+"icao": "SBEG",
+"name": "Manaus",
+"lat": -3.0321,
+"lng": -60.0461,
+"ne": true
+},
+{
+"icao": "SBFI",
+"name": "Foz do Iguaçu",
+"lat": -25.5977,
+"lng": -54.4886,
+"ne": true
+},
+{
+"icao": "SBFL",
+"name": "Florianópolis",
+"lat": -27.6646,
+"lng": -48.5448,
+"ne": true
+},
+{
+"icao": "SBFZ",
+"name": "Pinto Martins – Fortaleza",
+"lat": -3.7786,
+"lng": -38.5407,
+"ne": true
+},
+{
+"icao": "SBGL",
+"name": "Rio de Janeiro/Galeão – Antonio Carlos Jobim",
+"lat": -22.8123,
+"lng": -43.2484,
+"ne": true
+},
+{
+"icao": "SBGO",
+"name": "Santa Genoveva",
+"lat": -16.6324,
+"lng": -49.2266,
+"ne": true
+},
+{
+"icao": "SBGR",
+"name": "São Paulo-Guarulhos",
+"lat": -23.4261,
+"lng": -46.4818,
+"ne": true
+},
+{
+"icao": "SBJP",
+"name": "Presidente Castro Pinto",
+"lat": -7.1462,
+"lng": -34.9489,
+"ne": true
+},
+{
+"icao": "SBJV",
+"name": "Joinville-Lauro Carneiro de Loyola",
+"lat": -26.2243,
+"lng": -48.8017,
+"ne": true
+},
+{
+"icao": "SBKP",
+"name": "Viracopos",
+"lat": -23.0096,
+"lng": -47.1411,
+"ne": true
+},
+{
+"icao": "SBMO",
+"name": "Zumbi dos Palmares",
+"lat": -9.5149,
+"lng": -35.7925,
+"ne": true
+},
+{
+"icao": "SBPA",
+"name": "Salgado Filho",
+"lat": -29.9902,
+"lng": -51.177,
+"ne": true
+},
+{
+"icao": "SBPP",
+"name": "Ponta Porã",
+"lat": -22.5518,
+"lng": -55.7061,
+"ne": true
+},
+{
+"icao": "SBPV",
+"name": "Governador Jorge Teixeira de Oliveira",
+"lat": -8.7144,
+"lng": -63.8985,
+"ne": true
+},
+{
+"icao": "SBRF",
+"name": "Recife/Guararapes–Gilberto Freyre",
+"lat": -8.1316,
+"lng": -34.9183,
+"ne": true
+},
+{
+"icao": "SBSL",
+"name": "Marechal Cunha Machado",
+"lat": -2.5835,
+"lng": -44.2362,
+"ne": true
+},
+{
+"icao": "SBSP",
+"name": "Congonhas-São Paulo",
+"lat": -23.6269,
+"lng": -46.6591,
+"ne": true
+},
+{
+"icao": "SBSV",
+"name": "Deputado Luís Eduardo Magalhães",
+"lat": -12.9144,
+"lng": -38.3348,
+"ne": true
+},
+{
+"icao": "SBTE",
+"name": "Teresina",
+"lat": -5.0635,
+"lng": -42.8212,
+"ne": true
+},
+{
+"icao": "SBTT",
+"name": "Tabatinga",
+"lat": -4.2503,
+"lng": -69.9395,
+"ne": true
+},
+{
+"icao": "SBVT",
+"name": "Eurico de Aguiar Salles",
+"lat": -20.2574,
+"lng": -40.2885,
+"ne": true
+},
+{
+"icao": "SCAR",
+"name": "Chacalluta",
+"lat": -18.3492,
+"lng": -70.3357,
+"ne": true
+},
+{
+"icao": "SCCI",
+"name": "Presidente Carlos Ibáñez del Campo",
+"lat": -53.0051,
+"lng": -70.8431,
+"ne": true
+},
+{
+"icao": "SCEL",
+"name": "Arturo Merino Benítez",
+"lat": -33.3968,
+"lng": -70.7937,
+"ne": true
+},
+{
+"icao": "SCFA",
+"name": "Andrés Sabella",
+"lat": -23.449,
+"lng": -70.441,
+"ne": true
+},
+{
+"icao": "SCIE",
+"name": "Carriel Sur",
+"lat": -36.7764,
+"lng": -73.0621,
+"ne": true
+},
+{
+"icao": "SCIP",
+"name": "Mataveri",
+"lat": -27.1588,
+"lng": -109.4301,
+"ne": true
+},
+{
+"icao": "SCTE",
+"name": "El Tepual",
+"lat": -41.4334,
+"lng": -73.0984,
+"ne": true
+},
+{
+"icao": "SCVM",
+"name": "Viña del Mar",
+"lat": -32.9484,
+"lng": -71.4806,
+"ne": true
+},
+{
+"icao": "SEGU",
+"name": "José Joaquín de Olmedo",
+"lat": -2.1583,
+"lng": -79.887,
+"ne": true
+},
+{
+"icao": "SEQU",
+"name": "Mariscal Sucre",
+"lat": -0.1456,
+"lng": -78.49,
+"ne": true
+},
+{
+"icao": "SGAS",
+"name": "Silvio Pettirossi",
+"lat": -25.2417,
+"lng": -57.5139,
+"ne": true
+},
+{
+"icao": "SGES",
+"name": "Guaraní",
+"lat": -25.4569,
+"lng": -54.8394,
+"ne": true
+},
+{
+"icao": "SJJQ",
+"name": "Augusto Severo",
+"lat": -5.8991,
+"lng": -35.2488,
+"ne": true
+},
+{
+"icao": "SKBG",
+"name": "Palonegro",
+"lat": 7.1277,
+"lng": -73.1809,
+"ne": true
+},
+{
+"icao": "SKBO",
+"name": "El Dorado International Airport Luis Carlos Galán Sarmiento",
+"lat": 4.6988,
+"lng": -74.1434,
+"ne": true
+},
+{
+"icao": "SKBQ",
+"name": "Ernesto Cortissoz",
+"lat": 10.8867,
+"lng": -74.7766,
+"ne": true
+},
+{
+"icao": "SKCG",
+"name": "Rafael Núñez",
+"lat": 10.4449,
+"lng": -75.5123,
+"ne": true
+},
+{
+"icao": "SKCL",
+"name": "Alfonso Bonilla Aragón",
+"lat": 3.5433,
+"lng": -76.3851,
+"ne": true
+},
+{
+"icao": "SKRG",
+"name": "José María Córdova",
+"lat": 6.171,
+"lng": -75.427,
+"ne": true
+},
+{
+"icao": "SLLP",
+"name": "El Alto",
+"lat": -16.5099,
+"lng": -68.178,
+"ne": true
+},
+{
+"icao": "SLSU",
+"name": "Juana Azurduy de Padilla",
+"lat": -19.0139,
+"lng": -65.2929,
+"ne": true
+},
+{
+"icao": "SLVR",
+"name": "Viru Viru",
+"lat": -17.6479,
+"lng": -63.1404,
+"ne": true
+},
+{
+"icao": "SMJP",
+"name": "Johan Adolf Pengel",
+"lat": 5.456,
+"lng": -55.1999,
+"ne": true
+},
+{
+"icao": "SOCA",
+"name": "Cayenne – Félix Eboué",
+"lat": 4.8213,
+"lng": -52.3638,
+"ne": true
+},
+{
+"icao": "SPIM",
+"name": "Jorge Chávez",
+"lat": -12.0237,
+"lng": -77.1076,
+"ne": true
+},
+{
+"icao": "SPQU",
+"name": "Rodríguez Ballón",
+"lat": -16.3446,
+"lng": -71.5679,
+"ne": true
+},
+{
+"icao": "SPZO",
+"name": "Alejandro Velasco Astete",
+"lat": -13.5382,
+"lng": -71.9437,
+"ne": true
+},
+{
+"icao": "SUDU",
+"name": "Santa Bernardina",
+"lat": -33.3591,
+"lng": -56.4993,
+"ne": true
+},
+{
+"icao": "SUMU",
+"name": "Carrasco",
+"lat": -34.841,
+"lng": -56.0266,
+"ne": true
+},
+{
+"icao": "SUPU",
+"name": "Paysandú",
+"lat": -32.3615,
+"lng": -58.0685,
+"ne": true
+},
+{
+"icao": "SUSO",
+"name": "Nueva Hespérides",
+"lat": -31.4374,
+"lng": -57.9841,
+"ne": true
+},
+{
+"icao": "SVBM",
+"name": "Jacinto Lara",
+"lat": 10.0453,
+"lng": -69.3561,
+"ne": true
+},
+{
+"icao": "SVMC",
+"name": "La Chinita",
+"lat": 10.5558,
+"lng": -71.7238,
+"ne": true
+},
+{
+"icao": "SVMI",
+"name": "Simón Bolívar",
+"lat": 10.5974,
+"lng": -67.0057,
+"ne": true
+},
+{
+"icao": "SVVA",
+"name": "Arturo Michelena",
+"lat": 10.154,
+"lng": -67.9224,
+"ne": true
+},
+{
+"icao": "SYCJ",
+"name": "Cheddi Jagan",
+"lat": 6.4986,
+"lng": -58.2541,
+"ne": true
+},
+{
+"icao": "TAPA",
+"name": "V. C. Bird",
+"lat": 17.1404,
+"lng": -61.7924,
+"ne": true
+},
+{
+"icao": "TBPB",
+"name": "Grantley Adams",
+"lat": 13.0797,
+"lng": -59.4874,
+"ne": true
+},
+{
+"icao": "TGPY",
+"name": "Maurice Bishop",
+"lat": 12.0073,
+"lng": -61.7859,
+"ne": true
+},
+{
+"icao": "TJSJ",
+"name": "Luis Muñoz Marín",
+"lat": 18.4381,
+"lng": -66.0042,
+"ne": true
+},
+{
+"icao": "TKPK",
+"name": "Robert L. Bradshaw",
+"lat": 17.3111,
+"lng": -62.7142,
+"ne": true
+},
+{
+"icao": "TLPL",
+"name": "Hewanorra",
+"lat": 13.7365,
+"lng": -60.95,
+"ne": true
+},
+{
+"icao": "TNCA",
+"name": "Queen Beatrix",
+"lat": 12.5035,
+"lng": -70.0076,
+"ne": true
+},
+{
+"icao": "TNCC",
+"name": "Hato",
+"lat": 12.1848,
+"lng": -68.9569,
+"ne": true
+},
+{
+"icao": "TNCM",
+"name": "Princess Juliana",
+"lat": 18.0422,
+"lng": -63.1123,
+"ne": true
+},
+{
+"icao": "TUPJ",
+"name": "Terrance B. Lettsome",
+"lat": 18.4444,
+"lng": -64.5372,
+"ne": true
+},
+{
+"icao": "TXKF",
+"name": "L.F. Wade",
+"lat": 32.3592,
+"lng": -64.7028,
+"ne": true
+},
+{
+"icao": "UAAA",
+"name": "Almaty",
+"lat": 43.3465,
+"lng": 77.012,
+"ne": true
+},
+{
+"icao": "UACC",
+"name": "Nursultan Nazarbayev",
+"lat": 51.0269,
+"lng": 71.4609,
+"ne": true
+},
+{
+"icao": "UAFM",
+"name": "Manas",
+"lat": 43.0555,
+"lng": 74.4688,
+"ne": true
+},
+{
+"icao": "UBBB",
+"name": "Heydar Aliyev",
+"lat": 40.4627,
+"lng": 50.0498,
+"ne": true
+},
+{
+"icao": "UDYZ",
+"name": "Zvartnots",
+"lat": 40.1524,
+"lng": 44.4001,
+"ne": true
+},
+{
+"icao": "UGTB",
+"name": "Tbilisi",
+"lat": 41.6694,
+"lng": 44.9646,
+"ne": true
+},
+{
+"icao": "UIIR",
+"name": "Irkutsk Northwest",
+"lat": 52.3616,
+"lng": 104.1974,
+"ne": true
+},
+{
+"icao": "UKBB",
+"name": "Boryspil",
+"lat": 50.3409,
+"lng": 30.8952,
+"ne": true
+},
+{
+"icao": "UKCC",
+"name": "Donetsk",
+"lat": 48.0692,
+"lng": 37.7448,
+"ne": true
+},
+{
+"icao": "UKDD",
+"name": "Dnipro",
+"lat": 48.3676,
+"lng": 35.0939,
+"ne": true
+},
+{
+"icao": "UKFF",
+"name": "Simferopol",
+"lat": 45.0202,
+"lng": 33.9961,
+"ne": true
+},
+{
+"icao": "UKHH",
+"name": "Kharkiv",
+"lat": 49.9215,
+"lng": 36.2822,
+"ne": true
+},
+{
+"icao": "UKKK",
+"name": "Kyiv Zhuliany",
+"lat": 50.4128,
+"lng": 30.4451,
+"ne": true
+},
+{
+"icao": "UKOO",
+"name": "Odessa",
+"lat": 46.4406,
+"lng": 30.6768,
+"ne": true
+},
+{
+"icao": "ULAA",
+"name": "Talagi",
+"lat": 64.5967,
+"lng": 40.7133,
+"ne": true
+},
+{
+"icao": "ULLI",
+"name": "Pulkovo",
+"lat": 59.8054,
+"lng": 30.3071,
+"ne": true
+},
+{
+"icao": "UMMS",
+"name": "Minsk National",
+"lat": 53.8894,
+"lng": 28.0342,
+"ne": true
+},
+{
+"icao": "UNBB",
+"name": "Barnaul",
+"lat": 53.3634,
+"lng": 83.5505,
+"ne": true
+},
+{
+"icao": "UNOO",
+"name": "Omsk Tsentralny",
+"lat": 54.9576,
+"lng": 73.3164,
+"ne": true
+},
+{
+"icao": "URRR",
+"name": "Rostov-on-Don",
+"lat": 47.2551,
+"lng": 39.8035,
+"ne": true
+},
+{
+"icao": "URWW",
+"name": "Volgograd",
+"lat": 48.7917,
+"lng": 44.3548,
+"ne": true
+},
+{
+"icao": "USCC",
+"name": "Chelyabinsk",
+"lat": 55.2978,
+"lng": 61.5123,
+"ne": true
+},
+{
+"icao": "USPP",
+"name": "Bolshoye Savino",
+"lat": 57.9198,
+"lng": 56.0196,
+"ne": true
+},
+{
+"icao": "USRR",
+"name": "Surgut",
+"lat": 61.3402,
+"lng": 73.4085,
+"ne": true
+},
+{
+"icao": "UTAA",
+"name": "Ashgabat",
+"lat": 37.9849,
+"lng": 58.364,
+"ne": true
+},
+{
+"icao": "UTTT",
+"name": "Tashkent",
+"lat": 41.2622,
+"lng": 69.2666,
+"ne": true
+},
+{
+"icao": "UUDD",
+"name": "Domodedovo",
+"lat": 55.4142,
+"lng": 37.9003,
+"ne": true
+},
+{
+"icao": "UUOO",
+"name": "Voronezh",
+"lat": 51.8126,
+"lng": 39.2255,
+"ne": true
+},
+{
+"icao": "UWGG",
+"name": "Nizhny Novgorod",
+"lat": 56.2186,
+"lng": 43.7896,
+"ne": true
+},
+{
+"icao": "UWKD",
+"name": "Kazan",
+"lat": 55.6081,
+"lng": 49.2984,
+"ne": true
+},
+{
+"icao": "UWSS",
+"name": "Saratov Tsentralny",
+"lat": 51.5606,
+"lng": 46.035,
+"ne": true
+},
+{
+"icao": "UWUU",
+"name": "Ufa",
+"lat": 54.5651,
+"lng": 55.8841,
+"ne": true
+},
+{
+"icao": "UWWW",
+"name": "Kurumoch",
+"lat": 53.5084,
+"lng": 50.1473,
+"ne": true
+},
+{
+"icao": "VAAH",
+"name": "Sardar Vallabhbhai Patel",
+"lat": 23.0707,
+"lng": 72.6209,
+"ne": true
+},
+{
+"icao": "VAAU",
+"name": "Aurangabad",
+"lat": 19.8673,
+"lng": 75.3958,
+"ne": true
+},
+{
+"icao": "VABB",
+"name": "Chhatrapati Shivaji Maharaj",
+"lat": 19.0951,
+"lng": 72.8746,
+"ne": true
+},
+{
+"icao": "VABO",
+"name": "Vadodara",
+"lat": 22.3362,
+"lng": 73.2263,
+"ne": true
+},
+{
+"icao": "VABP",
+"name": "Raja Bhoj",
+"lat": 23.2856,
+"lng": 77.3409,
+"ne": true
+},
+{
+"icao": "VAHB",
+"name": "Hubli",
+"lat": 15.3592,
+"lng": 75.0863,
+"ne": true
+},
+{
+"icao": "VAID",
+"name": "Devi Ahilyabai Holkar",
+"lat": 22.7277,
+"lng": 75.8093,
+"ne": true
+},
+{
+"icao": "VAJB",
+"name": "Jabalpur",
+"lat": 23.1845,
+"lng": 80.0587,
+"ne": true
+},
+{
+"icao": "VANP",
+"name": "Dr. Babasaheb Ambedkar",
+"lat": 21.0899,
+"lng": 79.0538,
+"ne": true
+},
+{
+"icao": "VANR",
+"name": "Gandhinagar",
+"lat": 19.966,
+"lng": 73.8106,
+"ne": true
+},
+{
+"icao": "VARK",
+"name": "Rajkot",
+"lat": 22.3093,
+"lng": 70.78,
+"ne": true
+},
+{
+"icao": "VARP",
+"name": "Swami Vivekananda",
+"lat": 21.186,
+"lng": 81.7404,
+"ne": true
+},
+{
+"icao": "VASL",
+"name": "Solapur",
+"lat": 17.6254,
+"lng": 75.9331,
+"ne": true
+},
+{
+"icao": "VASU",
+"name": "Surat",
+"lat": 21.1205,
+"lng": 72.7424,
+"ne": true
+},
+{
+"icao": "VCBI",
+"name": "Bandaranaike",
+"lat": 7.1781,
+"lng": 79.8853,
+"ne": true
+},
+{
+"icao": "VDPP",
+"name": "Phnom Penh",
+"lat": 11.5526,
+"lng": 104.845,
+"ne": true
+},
+{
+"icao": "VDSR",
+"name": "Siem Reap",
+"lat": 13.4088,
+"lng": 103.8158,
+"ne": true
+},
+{
+"icao": "VEBS",
+"name": "Biju Patnaik",
+"lat": 20.2527,
+"lng": 85.8169,
+"ne": true
+},
+{
+"icao": "VECC",
+"name": "Netaji Subhas Chandra Bose",
+"lat": 22.6454,
+"lng": 88.44,
+"ne": true
+},
+{
+"icao": "VEGT",
+"name": "Lokpriya Gopinath Bordoloi",
+"lat": 26.1052,
+"lng": 91.5882,
+"ne": true
+},
+{
+"icao": "VEJS",
+"name": "Sonari",
+"lat": 22.8154,
+"lng": 86.1725,
+"ne": true
+},
+{
+"icao": "VEPT",
+"name": "Lok Nayak Jayaprakash",
+"lat": 25.5944,
+"lng": 85.0909,
+"ne": true
+},
+{
+"icao": "VERC",
+"name": "Birsa Munda",
+"lat": 23.3177,
+"lng": 85.3236,
+"ne": true
+},
+{
+"icao": "VEVZ",
+"name": "Visakhapatnam",
+"lat": 17.728,
+"lng": 83.2235,
+"ne": true
+},
+{
+"icao": "VGEG",
+"name": "Shah Amanat",
+"lat": 22.2456,
+"lng": 91.8147,
+"ne": true
+},
+{
+"icao": "VGHS",
+"name": "Shahjalal",
+"lat": 23.8481,
+"lng": 90.4049,
+"ne": true
+},
+{
+"icao": "VGRJ",
+"name": "Shah Makhdum",
+"lat": 24.4448,
+"lng": 88.6138,
+"ne": true
+},
+{
+"icao": "VHHH",
+"name": "Hong Kong",
+"lat": 22.3153,
+"lng": 113.935,
+"ne": true
+},
+{
+"icao": "VIBN",
+"name": "Lal Bahadur Shastri",
+"lat": 25.4499,
+"lng": 82.8539,
+"ne": true
+},
+{
+"icao": "VIDP",
+"name": "Indira Gandhi",
+"lat": 28.5592,
+"lng": 77.0878,
+"ne": true
+},
+{
+"icao": "VIDX",
+"name": "Hindan Air Force Station",
+"lat": 28.7078,
+"lng": 77.3508,
+"ne": true
+},
+{
+"icao": "VIJP",
+"name": "Jaipur",
+"lat": 26.8212,
+"lng": 75.801,
+"ne": true
+},
+{
+"icao": "VIJU",
+"name": "Jammu",
+"lat": 32.681,
+"lng": 74.8423,
+"ne": true
+},
+{
+"icao": "VIKA",
+"name": "Kanpur",
+"lat": 26.4042,
+"lng": 80.4145,
+"ne": true
+},
+{
+"icao": "VIKO",
+"name": "Kota",
+"lat": 25.1634,
+"lng": 75.8505,
+"ne": true
+},
+{
+"icao": "VILD",
+"name": "Sahnewal",
+"lat": 30.8504,
+"lng": 75.9571,
+"ne": true
+},
+{
+"icao": "VILK",
+"name": "Chaudhary Charan Singh",
+"lat": 26.7639,
+"lng": 80.8842,
+"ne": true
+},
+{
+"icao": "VLVT",
+"name": "Wattay",
+"lat": 17.9755,
+"lng": 102.5682,
+"ne": true
+},
+{
+"icao": "VMMC",
+"name": "Macau",
+"lat": 22.1577,
+"lng": 113.5745,
+"ne": true
+},
+{
+"icao": "VNKT",
+"name": "Tribhuvan",
+"lat": 27.7003,
+"lng": 85.3571,
+"ne": true
+},
+{
+"icao": "VOBL",
+"name": "Kempegowda",
+"lat": 13.2006,
+"lng": 77.7096,
+"ne": true
+},
+{
+"icao": "VOBZ",
+"name": "Vijayawada",
+"lat": 16.5286,
+"lng": 80.7973,
+"ne": true
+},
+{
+"icao": "VOCB",
+"name": "Coimbatore",
+"lat": 11.0301,
+"lng": 77.0389,
+"ne": true
+},
+{
+"icao": "VOCI",
+"name": "Cochin",
+"lat": 10.1551,
+"lng": 76.3905,
+"ne": true
+},
+{
+"icao": "VOCL",
+"name": "Calicut",
+"lat": 11.1396,
+"lng": 75.951,
+"ne": true
+},
+{
+"icao": "VOHS",
+"name": "Rajiv Gandhi",
+"lat": 17.236,
+"lng": 78.4295,
+"ne": true
+},
+{
+"icao": "VOMD",
+"name": "Madurai",
+"lat": 9.8372,
+"lng": 78.0911,
+"ne": true
+},
+{
+"icao": "VOMM",
+"name": "Chennai",
+"lat": 12.9825,
+"lng": 80.1638,
+"ne": true
+},
+{
+"icao": "VOTR",
+"name": "Tiruchirapalli",
+"lat": 10.7604,
+"lng": 78.709,
+"ne": true
+},
+{
+"icao": "VOTV",
+"name": "Trivandrum",
+"lat": 8.4765,
+"lng": 76.9189,
+"ne": true
+},
+{
+"icao": "VRMM",
+"name": "Velana",
+"lat": 4.1887,
+"lng": 73.5274,
+"ne": true
+},
+{
+"icao": "VTBD",
+"name": "Don Mueang",
+"lat": 13.9203,
+"lng": 100.6026,
+"ne": true
+},
+{
+"icao": "VTBS",
+"name": "Suvarnabhumi",
+"lat": 13.6926,
+"lng": 100.7509,
+"ne": true
+},
+{
+"icao": "VTCC",
+"name": "Chiang Mai",
+"lat": 18.7688,
+"lng": 98.9681,
+"ne": true
+},
+{
+"icao": "VTSP",
+"name": "Phuket",
+"lat": 8.1077,
+"lng": 98.306,
+"ne": true
+},
+{
+"icao": "VTSS",
+"name": "Hat Yai",
+"lat": 6.9363,
+"lng": 100.3938,
+"ne": true
+},
+{
+"icao": "VVDN",
+"name": "Da Nang",
+"lat": 16.0531,
+"lng": 108.2027,
+"ne": true
+},
+{
+"icao": "VVNB",
+"name": "Noi Bai",
+"lat": 21.2146,
+"lng": 105.8038,
+"ne": true
+},
+{
+"icao": "VVTS",
+"name": "Tan Son Nhat",
+"lat": 10.8163,
+"lng": 106.6642,
+"ne": true
+},
+{
+"icao": "VYMD",
+"name": "Mandalay",
+"lat": 21.7055,
+"lng": 95.9707,
+"ne": true
+},
+{
+"icao": "VYYY",
+"name": "Yangon",
+"lat": 16.9012,
+"lng": 96.1342,
+"ne": true
+},
+{
+"icao": "WAAA",
+"name": "Sultan Hasanuddin",
+"lat": -5.0589,
+"lng": 119.5457,
+"ne": true
+},
+{
+"icao": "WADD",
+"name": "Ngurah Rai",
+"lat": -8.7448,
+"lng": 115.1623,
+"ne": true
+},
+{
+"icao": "WARR",
+"name": "Juanda",
+"lat": -7.3836,
+"lng": 112.777,
+"ne": true
+},
+{
+"icao": "WARS",
+"name": "Achmad Yani",
+"lat": -6.9787,
+"lng": 110.3786,
+"ne": true
+},
+{
+"icao": "WBGG",
+"name": "Kuching",
+"lat": 1.4872,
+"lng": 110.3418,
+"ne": true
+},
+{
+"icao": "WBKK",
+"name": "Kota Kinabalu",
+"lat": 5.9229,
+"lng": 116.0511,
+"ne": true
+},
+{
+"icao": "WBSB",
+"name": "Brunei",
+"lat": 4.9455,
+"lng": 114.9331,
+"ne": true
+},
+{
+"icao": "WIAT",
+"name": "Radin Inten II",
+"lat": -5.2426,
+"lng": 105.1761,
+"ne": true
+},
+{
+"icao": "WIBB",
+"name": "Sultan Syarif Kasim II",
+"lat": 0.4646,
+"lng": 101.4466,
+"ne": true
+},
+{
+"icao": "WICC",
+"name": "Husein Sastranegara",
+"lat": -6.9004,
+"lng": 107.5756,
+"ne": true
+},
+{
+"icao": "WIII",
+"name": "Soekarno–Hatta",
+"lat": -6.1266,
+"lng": 106.6543,
+"ne": true
+},
+{
+"icao": "WIMG",
+"name": "Minangkabau",
+"lat": -0.786,
+"lng": 100.2855,
+"ne": true
+},
+{
+"icao": "WIMM",
+"name": "Soewondo Air Force Base",
+"lat": 3.5666,
+"lng": 98.6762,
+"ne": true
+},
+{
+"icao": "WIPP",
+"name": "Sultan Mahmud Badaruddin II",
+"lat": -2.9,
+"lng": 104.6991,
+"ne": true
+},
+{
+"icao": "WMKK",
+"name": "Kuala Lumpur",
+"lat": 2.7475,
+"lng": 101.7139,
+"ne": true
+},
+{
+"icao": "WMKP",
+"name": "Penang",
+"lat": 5.2927,
+"lng": 100.2658,
+"ne": true
+},
+{
+"icao": "WPDL",
+"name": "Presidente Nicolau Lobato",
+"lat": -8.5493,
+"lng": 125.5249,
+"ne": true
+},
+{
+"icao": "WSSS",
+"name": "Singapore Changi",
+"lat": 1.3562,
+"lng": 103.9864,
+"ne": true
+},
+{
+"icao": "YBAS",
+"name": "Alice Springs",
+"lat": -23.802,
+"lng": 133.9029,
+"ne": true
+},
+{
+"icao": "YBBN",
+"name": "Brisbane",
+"lat": -27.3854,
+"lng": 153.1203,
+"ne": true
+},
+{
+"icao": "YBCG",
+"name": "Gold Coast",
+"lat": -28.1665,
+"lng": 153.5129,
+"ne": true
+},
+{
+"icao": "YBCS",
+"name": "Cairns",
+"lat": -16.8767,
+"lng": 145.7536,
+"ne": true
+},
+{
+"icao": "YBHI",
+"name": "Broken Hill",
+"lat": -31.999,
+"lng": 141.4704,
+"ne": true
+},
+{
+"icao": "YBRK",
+"name": "Rockhampton",
+"lat": -23.3786,
+"lng": 150.4789,
+"ne": true
+},
+{
+"icao": "YBRM",
+"name": "Broome",
+"lat": -17.9526,
+"lng": 122.2339,
+"ne": true
+},
+{
+"icao": "YMHB",
+"name": "Hobart",
+"lat": -42.8376,
+"lng": 147.506,
+"ne": true
+},
+{
+"icao": "YMML",
+"name": "Melbourne",
+"lat": -37.6699,
+"lng": 144.849,
+"ne": true
+},
+{
+"icao": "YPAD",
+"name": "Adelaide",
+"lat": -34.9406,
+"lng": 138.5321,
+"ne": true
+},
+{
+"icao": "YPCC",
+"name": "Cocos",
+"lat": -12.1852,
+"lng": 96.8287,
+"ne": true
+},
+{
+"icao": "YPPD",
+"name": "Port Hedland",
+"lat": -20.3781,
+"lng": 118.6318,
+"ne": true
+},
+{
+"icao": "YPPH",
+"name": "Perth",
+"lat": -31.9411,
+"lng": 115.9742,
+"ne": true
+},
+{
+"icao": "YSCB",
+"name": "Canberra",
+"lat": -35.3072,
+"lng": 149.1908,
+"ne": true
+},
+{
+"icao": "YSDU",
+"name": "Dubbo City Regional",
+"lat": -32.2187,
+"lng": 148.5697,
+"ne": true
+},
+{
+"icao": "YSNF",
+"name": "Norfolk Island",
+"lat": -29.0352,
+"lng": 167.9434,
+"ne": true
+},
+{
+"icao": "YSSY",
+"name": "Sydney",
+"lat": -33.9366,
+"lng": 151.1661,
+"ne": true
+},
+{
+"icao": "ZBAA",
+"name": "Beijing Capital",
+"lat": 40.0788,
+"lng": 116.5882,
+"ne": true
+},
+{
+"icao": "ZBHH",
+"name": "Hohhot Baita",
+"lat": 40.8541,
+"lng": 111.8147,
+"ne": true
+},
+{
+"icao": "ZBSJ",
+"name": "Shijiazhuang Zhengding",
+"lat": 38.2781,
+"lng": 114.6923,
+"ne": true
+},
+{
+"icao": "ZBTJ",
+"name": "Tianjin Binhai",
+"lat": 39.1295,
+"lng": 117.3527,
+"ne": true
+},
+{
+"icao": "ZBYN",
+"name": "Taiyuan Wusu",
+"lat": 37.7545,
+"lng": 112.6259,
+"ne": true
+},
+{
+"icao": "ZGGG",
+"name": "Guangzhou Baiyun",
+"lat": 23.3892,
+"lng": 113.2975,
+"ne": true
+},
+{
+"icao": "ZGHA",
+"name": "Changsha Huanghua",
+"lat": 28.1899,
+"lng": 113.2141,
+"ne": true
+},
+{
+"icao": "ZGKL",
+"name": "Guilin Liangjiang",
+"lat": 25.2176,
+"lng": 110.0469,
+"ne": true
+},
+{
+"icao": "ZGNN",
+"name": "Nanning Wuxu",
+"lat": 22.612,
+"lng": 108.168,
+"ne": true
+},
+{
+"icao": "ZGSZ",
+"name": "Shenzhen Bao'an",
+"lat": 22.6465,
+"lng": 113.8159,
+"ne": true
+},
+{
+"icao": "ZHCC",
+"name": "Zhengzhou Xinzheng",
+"lat": 34.5263,
+"lng": 113.8418,
+"ne": true
+},
+{
+"icao": "ZJSY",
+"name": "Sanya Phoenix",
+"lat": 18.3091,
+"lng": 109.4082,
+"ne": true
+},
+{
+"icao": "ZKPY",
+"name": "Pyongyang",
+"lat": 39.2002,
+"lng": 125.6753,
+"ne": true
+},
+{
+"icao": "ZLLL",
+"name": "Lanzhou Zhongchuan",
+"lat": 36.5079,
+"lng": 103.6154,
+"ne": true
+},
+{
+"icao": "ZLXY",
+"name": "Xi'an Xianyang",
+"lat": 34.4429,
+"lng": 108.7558,
+"ne": true
+},
+{
+"icao": "ZMUB",
+"name": "Chinggis Khaan",
+"lat": 47.8525,
+"lng": 106.7629,
+"ne": true
+},
+{
+"icao": "ZPPP",
+"name": "Kunming Changshui",
+"lat": 25.1012,
+"lng": 102.9285,
+"ne": true
+},
+{
+"icao": "ZSAM",
+"name": "Xiamen Gaoqi",
+"lat": 24.5372,
+"lng": 118.127,
+"ne": true
+},
+{
+"icao": "ZSCN",
+"name": "Nanchang Changbei",
+"lat": 28.8625,
+"lng": 115.912,
+"ne": true
+},
+{
+"icao": "ZSFZ",
+"name": "Fuzhou Changle",
+"lat": 25.9318,
+"lng": 119.668,
+"ne": true
+},
+{
+"icao": "ZSHC",
+"name": "Hangzhou Xiaoshan",
+"lat": 30.2352,
+"lng": 120.4321,
+"ne": true
+},
+{
+"icao": "ZSNB",
+"name": "Ningbo Lishe",
+"lat": 29.8208,
+"lng": 121.4618,
+"ne": true
+},
+{
+"icao": "ZSNJ",
+"name": "Nanjing Lukou",
+"lat": 31.7353,
+"lng": 118.8661,
+"ne": true
+},
+{
+"icao": "ZSOF",
+"name": "Hefei Luogang",
+"lat": 31.7799,
+"lng": 117.3042,
+"ne": true
+},
+{
+"icao": "ZSPD",
+"name": "Shanghai Pudong",
+"lat": 31.1523,
+"lng": 121.8015,
+"ne": true
+},
+{
+"icao": "ZSQD",
+"name": "Qingdao Liuting",
+"lat": 36.2678,
+"lng": 120.3807,
+"ne": true
+},
+{
+"icao": "ZSSS",
+"name": "Shanghai Hongqiao",
+"lat": 31.1873,
+"lng": 121.3412,
+"ne": true
+},
+{
+"icao": "ZUCK",
+"name": "Chongqing Jiangbei",
+"lat": 29.724,
+"lng": 106.638,
+"ne": true
+},
+{
+"icao": "ZULS",
+"name": "Lhasa Gonggar",
+"lat": 29.2937,
+"lng": 90.9006,
+"ne": true
+},
+{
+"icao": "ZUUU",
+"name": "Chengdu Shuangliu",
+"lat": 30.5811,
+"lng": 103.9561,
+"ne": true
+},
+{
+"icao": "ZWSH",
+"name": "Kashgar",
+"lat": 39.538,
+"lng": 76.013,
+"ne": true
+},
+{
+"icao": "ZWTN",
+"name": "Hotan",
+"lat": 37.04,
+"lng": 79.8723,
+"ne": true
+},
+{
+"icao": "ZWWW",
+"name": "Ürümqi Diwopu",
+"lat": 43.8983,
+"lng": 87.4671,
+"ne": true
+},
+{
+"icao": "ZYCC",
+"name": "Changchun Longjia",
+"lat": 43.993,
+"lng": 125.6905,
+"ne": true
+},
+{
+"icao": "ZYHB",
+"name": "Harbin Taiping",
+"lat": 45.6206,
+"lng": 126.237,
+"ne": true
+},
+{
+"icao": "ZYJM",
+"name": "Jiamusi Dongjiao",
+"lat": 46.843,
+"lng": 130.4562,
+"ne": true
+},
+{
+"icao": "ZYMD",
+"name": "Mudanjiang Hailang",
+"lat": 44.5343,
+"lng": 129.5802,
+"ne": true
+},
+{
+"icao": "ZYTL",
+"name": "Dalian Zhoushuizi",
+"lat": 38.9616,
+"lng": 121.5389,
+"ne": true
+},
+{
+"icao": "ZYTX",
+"name": "Shenyang Taoxian",
+"lat": 41.6348,
+"lng": 123.488,
+"ne": true
+}
+]
+}

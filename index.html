@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Globe Flight</title>
+<meta name="description" content="Fly a Cessna 172 over a 3D globe and find the i bubbles. Fuel burn, wind and VFR cruising altitudes from the airplane's book numbers, with time sped up a few hundred times.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%230f1f31' stroke='%2365f4f4' stroke-width='2'/%3E%3Cpath d='M16 6v20M7 14h18M12 24h8' stroke='%23f4f7fa' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="geo-map-zone" id="geo-map-zone"><div class="geo-map-scroller" id="geo-map-scroller"></div></div>
+<canvas id="fly-canvas" tabindex="-1" aria-label="Your airplane"></canvas>
+<header class="ride-top">
+  <h1 class="ride-title">Fly over the globe</h1>
+  <span class="fly-found" aria-live="polite"><i class="fly-i">i</i><span id="fly-found">0</span> found</span>
+</header>
+<div class="fly-msg" id="fly-msg" role="status" aria-live="polite"></div>
+<div class="fly-see" id="fly-see" hidden>The i bubbles show below 3,000 ft</div>
+<button type="button" class="fly-btn fly-refuel" id="fly-refuel" hidden>Fill the tanks</button>
+
+<section class="fly-panel fly-inst" aria-label="Instruments">
+  <div class="fly-g"><span>Airspeed</span><b id="fly-ias">0</b><small>knots</small></div>
+  <div class="fly-g"><span>Altitude</span><b id="fly-alt">0</b><small>feet</small></div>
+  <div class="fly-g"><span>Climb</span><b id="fly-vs">0</b><small>feet/min</small></div>
+  <div class="fly-g"><span>Heading</span><b id="fly-hdg">000</b><small>track <span id="fly-trk">000</span></small></div>
+  <div class="fly-g"><span>Ground speed</span><b id="fly-gs">0</b><small>knots</small></div>
+  <div class="fly-g"><span>Wind</span><b id="fly-wind" class="fly-wind">calm</b><small>from, speed</small></div>
+  <div class="fly-g fly-wide"><span>Throttle <span id="fly-pwr">0%</span> · time <span id="fly-speedup">1×</span></span><input type="range" class="fly-thr" id="fly-thr" min="0" max="100" value="65" aria-label="Throttle"></div>
+  <div class="fly-g fly-full"><span>Fuel <span id="fly-fuel">53 gal</span> · <span id="fly-endur"></span></span><div class="fly-fuelbar"><i id="fly-fuel-bar" style="width:100%"></i></div></div>
+</section>
+
+<section class="fly-panel fly-leg" id="fly-leg" aria-label="The leg">
+  <h2>The leg</h2>
+  <select id="fly-target" aria-label="Fly to"><option value="fact">The nearest i bubble I haven't found</option><option value="apt">The nearest airport</option></select>
+  <p class="fly-to" id="fly-leg-to"></p>
+  <dl>
+    <dt class="fly-more">Course</dt><dd class="fly-more" id="fly-leg-tc"></dd>
+    <dt>Distance</dt><dd id="fly-leg-dist"></dd>
+    <dt class="fly-more">Wind correction</dt><dd class="fly-more" id="fly-leg-wca"></dd>
+    <dt>Heading to fly</dt><dd id="fly-leg-hdg"></dd>
+    <dt class="fly-more">Ground speed</dt><dd class="fly-more" id="fly-leg-gs"></dd>
+    <dt class="fly-more">Time en route</dt><dd class="fly-more" id="fly-leg-ete"></dd>
+    <dt>Fuel</dt><dd id="fly-leg-fuel"></dd>
+    <dt class="fly-more">VFR altitude</dt><dd class="fly-more" id="fly-leg-vfr"></dd>
+  </dl>
+</section>
+
+<div class="fly-card" id="fly-intro">
+  <div>
+    <h2>Fly over the globe</h2>
+    <p>A Cessna 172 over a globe of the world. Up at cruise the world goes by a few hundred times faster than real; down low it slows so you can look around. The i bubbles only show below 3,000 feet. Fly over one to open it.</p>
+    <p>A full tank is 53 gallons, about 600 nautical miles with the 30-minute VFR reserve, so plan your legs and land at an airport to fill up. The wind is steady, and it pushes you off course: the leg card works out the heading to fly, the way an E6B flight computer does.</p>
+    <div class="fly-keys">
+      <div><span class="fly-k"><kbd>←</kbd> <kbd>→</kbd> or <kbd>A</kbd> <kbd>D</kbd></span><span>bank and turn</span></div>
+      <div><span class="fly-k"><kbd>↓</kbd> or <kbd>S</kbd></span><span>pull back to climb</span></div>
+      <div><span class="fly-k"><kbd>↑</kbd> or <kbd>W</kbd></span><span>push forward to descend (like a yoke)</span></div>
+      <div><span class="fly-k"><kbd>E</kbd> <kbd>Q</kbd> or the wheel</span><span>throttle up and down</span></div>
+      <div><span class="fly-k">Hold the mouse</span><span>or a finger on the map: the plane turns and climbs toward it. <kbd>M</kbd> follows the cursor without holding.</span></div>
+      <div><span class="fly-k"><kbd>P</kbd></span><span>pause</span></div>
+    </div>
+    <label><input type="checkbox" id="fly-up-climbs"> The up arrow climbs instead</label>
+    <label><input type="checkbox" id="fly-arrow"> Show an arrow to where I'm going</label>
+    <label><input type="checkbox" id="fly-sound"> Sound (the stall horn, a chime for each bubble)</label>
+    <label>Start at <select id="fly-start-at"></select></label>
+    <div class="fly-row">
+      <button type="button" class="fly-btn" id="fly-go-air">Start in the air</button>
+      <button type="button" class="fly-btn is-ghost" id="fly-go-runway">Take off from the runway</button>
+      <button type="button" class="fly-btn is-ghost" id="fly-resume" hidden>Pick up where I left off</button>
+    </div>
+    <p style="margin-top:0.8rem;font-size:0.8rem;color:var(--text-muted)">A game, not a flight trainer. Also on <a href="https://ethandavidmagalei.com/fly/">ethandavidmagalei.com/fly/</a>. Map: Natural Earth; © OpenStreetMap contributors.</p>
+  </div>
+</div>
+<div class="fly-card" id="fly-paused" hidden>
+  <div>
+    <h2>Paused</h2>
+    <button type="button" class="fly-btn" id="fly-unpause">Keep flying</button>
+  </div>
+</div>
+<noscript><p style="position:fixed;top:40%;width:100%;text-align:center;color:#fff">The game needs JavaScript.</p></noscript>
+<script src="js/boot.js"></script>
+</body>
+</html>

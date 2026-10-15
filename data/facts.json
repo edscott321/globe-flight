@@ -1,0 +1,868 @@
+{
+ "facts": [
+  {
+   "id": "mound-city",
+   "lat": 40.519,
+   "lng": -111.48,
+   "kind": "place",
+   "title": "Mound City",
+   "fact": "Midway's upper settlement was first called Mound City, after the limestone mounds nearby. The upper and lower settlements later merged around Fort Midway, halfway between them, and took its name.",
+   "source": "https://en.wikipedia.org/wiki/Midway,_Utah"
+  },
+  {
+   "id": "great-salt-lake",
+   "lat": 41.1,
+   "lng": -112.5,
+   "kind": "place",
+   "title": "America's Dead Sea",
+   "fact": "The Great Salt Lake has no outlet but the sky. Its rivers bring in about 1.1 million tons of minerals a year, and the water only leaves by evaporating, so the salt stays and you float.",
+   "source": "https://en.wikipedia.org/wiki/Great_Salt_Lake"
+  },
+  {
+   "id": "lake-bonneville",
+   "lat": 40.76,
+   "lng": -113.89,
+   "kind": "place",
+   "title": "Lake Bonneville",
+   "fact": "At its highest, about 17,500 years ago, Lake Bonneville was more than 980 feet deep and nearly the size of Lake Michigan. The Great Salt Lake and the Bonneville Salt Flats are what's left.",
+   "source": "https://en.wikipedia.org/wiki/Lake_Bonneville"
+  },
+  {
+   "id": "great-basin",
+   "lat": 41.4,
+   "lng": -115.6,
+   "kind": "place",
+   "title": "Water with nowhere to go",
+   "fact": "No rain that falls in the Great Basin reaches the ocean. It covers nearly all of Nevada and much of Utah, and every drop ends in a lake, a marsh, the ground or the air.",
+   "source": "https://en.wikipedia.org/wiki/Great_Basin"
+  },
+  {
+   "id": "loneliest-road",
+   "lat": 39.49,
+   "lng": -117.07,
+   "kind": "place",
+   "title": "The Loneliest Road",
+   "fact": "In July 1986 Life magazine called U.S. 50 across Nevada \"The Loneliest Road in America.\" It was meant as an insult. Nevada made it a slogan.",
+   "source": "https://en.wikipedia.org/wiki/U.S._Route_50_in_Nevada"
+  },
+  {
+   "id": "prometheus",
+   "lat": 38.986,
+   "lng": -114.31,
+   "kind": "place",
+   "title": "Prometheus",
+   "fact": "A bristlecone pine near the top of Wheeler Peak was at least 4,862 years old when it was cut down for research in 1964. Nobody knew its age until they counted the rings.",
+   "source": "https://en.wikipedia.org/wiki/Prometheus_(tree)"
+  },
+  {
+   "id": "tahoe-curve",
+   "lat": 39.09,
+   "lng": -120.04,
+   "kind": "place",
+   "title": "A lake you can see curve",
+   "fact": "Lake Tahoe is so wide that its surface bulges with the curve of the Earth. At its widest, the far shoreline sits nearly 100 feet below the horizon.",
+   "source": "https://en.wikipedia.org/wiki/Lake_Tahoe"
+  },
+  {
+   "id": "fallen-leaf",
+   "lat": 38.895,
+   "lng": -120.055,
+   "kind": "me",
+   "title": "Almost a bay of Tahoe",
+   "fact": "Glaciers carved Fallen Leaf Lake; had they kept going, it would be a bay of Lake Tahoe, like Emerald Bay. Its deepest water, 381 feet, is just north of Stanford Sierra Camp, where I led mountain bike rides in the summer of 2026.",
+   "source": "https://en.wikipedia.org/wiki/Fallen_Leaf_Lake"
+  },
+  {
+   "id": "golden-gate",
+   "lat": 37.8199,
+   "lng": -122.4783,
+   "kind": "place",
+   "title": "International Orange",
+   "fact": "The Golden Gate Bridge's color was the architect Irving Morrow's pick. The Navy had suggested black and yellow stripes.",
+   "source": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+  },
+  {
+   "id": "stanford-founding",
+   "lat": 37.4275,
+   "lng": -122.1697,
+   "kind": "place",
+   "title": "Leland Jr.",
+   "fact": "Leland and Jane Stanford founded the university in 1885 in memory of their only child, Leland Jr., who died of typhoid at 15. The first students came in 1891, including future president Herbert Hoover, who was in the founding class and began many of the traditions.",
+   "source": "https://en.wikipedia.org/wiki/Stanford_University"
+  },
+  {
+   "id": "slac",
+   "lat": 37.418,
+   "lng": -122.205,
+   "kind": "place",
+   "title": "Two miles straight",
+   "fact": "The accelerator at SLAC, just west of campus, is two miles long, the longest linear accelerator in the world. It has run since 1966.",
+   "source": "https://en.wikipedia.org/wiki/SLAC_National_Accelerator_Laboratory"
+  },
+  {
+   "id": "queen-mary",
+   "lat": 33.753,
+   "lng": -118.19,
+   "kind": "place",
+   "title": "The Queen Mary",
+   "fact": "The Queen Mary crossed the North Atlantic for Cunard from 1936 to 1967. Then Long Beach bought her, and she sailed there to become a hotel and museum.",
+   "source": "https://en.wikipedia.org/wiki/RMS_Queen_Mary"
+  },
+  {
+   "id": "arches",
+   "lat": 38.73,
+   "lng": -109.59,
+   "kind": "place",
+   "title": "Two thousand arches",
+   "fact": "Arches National Park has more than 2,000 natural sandstone arches, the most in one place anywhere. A salt bed underground is what makes them.",
+   "source": "https://en.wikipedia.org/wiki/Arches_National_Park"
+  },
+  {
+   "id": "pikes-peak",
+   "lat": 38.84,
+   "lng": -105.04,
+   "kind": "place",
+   "title": "America the Beautiful",
+   "fact": "Katharine Lee Bates wrote \"America the Beautiful\" after reaching the top of Pikes Peak in 1893. Her first title for the poem was \"Pikes Peak.\"",
+   "source": "https://en.wikipedia.org/wiki/Pikes_Peak"
+  },
+  {
+   "id": "canon-city",
+   "lat": 38.44,
+   "lng": -105.24,
+   "kind": "me",
+   "title": "A detour by air",
+   "fact": "Partway through Spokes, I left Cañon City to fly to my great-grandpa's 100th birthday, then caught up with the team in Kansas.",
+   "source": ""
+  },
+  {
+   "id": "lebanon-kansas",
+   "lat": 39.83,
+   "lng": -98.58,
+   "kind": "place",
+   "title": "The middle",
+   "fact": "The center of the lower 48 states, by a 1918 survey, is in a field about 2.6 miles northwest of Lebanon, Kansas.",
+   "source": "https://en.wikipedia.org/wiki/Geographic_center_of_the_United_States"
+  },
+  {
+   "id": "gateway-arch",
+   "lat": 38.6247,
+   "lng": -90.1848,
+   "kind": "place",
+   "title": "630 feet",
+   "fact": "The Gateway Arch is 630 feet tall, the tallest arch in the world. Its curve is a weighted catenary, the shape of a hanging chain turned upside down, also the shape that inspires the architecture of the Sagrada Familia in Barcelona.",
+   "source": "https://en.wikipedia.org/wiki/Gateway_Arch"
+  },
+  {
+   "id": "kentucky-derby",
+   "lat": 38.2033,
+   "lng": -85.7706,
+   "kind": "place",
+   "title": "The first Derby",
+   "fact": "The first Kentucky Derby was run on May 17, 1875, in front of about 10,000 people. A colt named Aristides won it, ridden by Oliver Lewis.",
+   "source": "https://en.wikipedia.org/wiki/Kentucky_Derby"
+  },
+  {
+   "id": "fbla-chicago",
+   "lat": 41.88,
+   "lng": -87.63,
+   "kind": "me",
+   "title": "Impromptu",
+   "fact": "In high school I went to FBLA nationals in Chicago for impromptu speaking.",
+   "source": ""
+  },
+  {
+   "id": "washington-monument",
+   "lat": 38.8895,
+   "lng": -77.0353,
+   "kind": "place",
+   "title": "Two shades of marble",
+   "fact": "The Washington Monument changes color about a quarter of the way up, at 152 feet. Building stopped there in 1854 and didn't start again until 1879, with marble from a different quarry. Enslaved people very likely helped build that first stretch, quarrying and hauling its Maryland marble; the Smithsonian says so, though no pay records survive.",
+   "source": "https://en.wikipedia.org/wiki/Washington_Monument"
+  },
+  {
+   "id": "cerro-pachon",
+   "lat": -30.24,
+   "lng": -70.74,
+   "kind": "me",
+   "title": "Three telescopes, one mountain",
+   "fact": "Cerro Pachón in Chile holds the SOAR telescope, Gemini South and the Vera C. Rubin Observatory. My pulsar research used spectra from SOAR, and several of my professors have worked on Rubin.",
+   "source": "https://en.wikipedia.org/wiki/Cerro_Pach%C3%B3n"
+  },
+  {
+   "id": "samoa-date-line",
+   "lat": -13.83,
+   "lng": -171.76,
+   "kind": "place",
+   "title": "The missing Friday",
+   "fact": "Samoa skipped Friday, December 30, 2011. It moved across the International Date Line to share a calendar day with Australia and New Zealand, where much of its business is.",
+   "source": "https://en.wikipedia.org/wiki/Samoa"
+  },
+  {
+   "id": "dangerous-rapidly",
+   "lat": 37.2753,
+   "lng": -107.8801,
+   "kind": "me",
+   "title": "Dangerous and Rapidly Growing Worse",
+   "fact": "Railroaders joked that D&RGW, the Denver and Rio Grande Western, stood for \"Dangerous and Rapidly Growing Worse.\" Its line from Durango up to Silverton opened in 1882 and still runs on steam. I heard the joke in [Helper, Utah](/spokes-ride/#day=21), a Rio Grande town I rode through on [[spokes-ride|Spokes]].",
+   "source": "https://en.wikipedia.org/wiki/Denver_and_Rio_Grande_Western_Railroad"
+  },
+  {
+   "id": "whitehorse-dan-mcgrew",
+   "lat": 60.7212,
+   "lng": -135.0568,
+   "kind": "place",
+   "title": "The bank clerk's ballad",
+   "fact": "In 1904 Robert Service was a bank clerk in Whitehorse. Needing something new to recite at a church concert, he wrote \"The Shooting of Dan McGrew\" in one night, and was nearly shot as a burglar when he ran into the bank to write it down. He's sometimes counted among the [[i:elko-cowboy-poetry|cowboy poets]].",
+   "source": "https://en.wikipedia.org/wiki/Robert_W._Service"
+  },
+  {
+   "id": "lake-laberge",
+   "lat": 61.2,
+   "lng": -135.2,
+   "kind": "place",
+   "title": "The marge of Lake Lebarge",
+   "fact": "Robert Service spelled it \"Lebarge\" in \"The Cremation of Sam McGee,\" so it would rhyme with \"marge.\" He took the name Sam McGee off a bank form because it rhymed with \"Tennessee.\" The [[i:yellowstone-sam-mcgee|real McGee]] built roads.",
+   "source": "https://en.wikipedia.org/wiki/The_Cremation_of_Sam_McGee"
+  },
+  {
+   "id": "yellowstone-sam-mcgee",
+   "lat": 44.43,
+   "lng": -110.59,
+   "kind": "place",
+   "title": "The real Sam McGee",
+   "fact": "William Samuel McGee, whose name Robert Service borrowed for \"The [[i:lake-laberge|Cremation of Sam McGee]],\" was a road builder. In 1909 he went south to build roads, some of them in Yellowstone. He died on his daughter's farm in Alberta in 1940 and was buried, not cremated.",
+   "source": "https://en.wikipedia.org/wiki/The_Cremation_of_Sam_McGee"
+  },
+  {
+   "id": "dawson-service-cabin",
+   "lat": 64.0566,
+   "lng": -139.428,
+   "kind": "place",
+   "title": "The bard arrives late",
+   "fact": "Robert Service, the Bard of the Yukon, didn't set foot in Dawson City until 1908, ten years after the gold rush [[i:whitehorse-dan-mcgrew|his ballads]] made famous. He wrote in a two-room cabin here from 1909 to 1912, and Parks Canada staff in period costume still recite his poems there.",
+   "source": "https://en.wikipedia.org/wiki/Robert_W._Service"
+  },
+  {
+   "id": "sourtoe-cocktail",
+   "lat": 64.061,
+   "lng": -139.433,
+   "kind": "place",
+   "title": "The Sourtoe Cocktail",
+   "fact": "At Dawson City's Downtown Hotel, the Sourtoe Cocktail comes with a real human toe in it, and your lips have to touch the toe. Swallowing it is a $2,500 fine.",
+   "source": "https://en.wikipedia.org/wiki/Sourtoe_Cocktail"
+  },
+  {
+   "id": "chilkoot-golden-stairs",
+   "lat": 59.6962,
+   "lng": -135.1406,
+   "kind": "place",
+   "title": "A ton to get in",
+   "fact": "During the Klondike Gold Rush, the Mounties let prospectors into Canada only if they brought at least a ton of supplies. At the Chilkoot Pass that meant hauling it up the Golden Stairs, steps cut into the snow and ice, and many turned back.",
+   "source": "https://en.wikipedia.org/wiki/Chilkoot_Trail"
+  },
+  {
+   "id": "elko-cowboy-poetry",
+   "lat": 40.8324,
+   "lng": -115.7631,
+   "kind": "place",
+   "title": "Ranch verse",
+   "fact": "Every year since 1985, ranchers and cowboys have come to Elko to share poems about working cattle, at what's now the National Cowboy Poetry Gathering. [[i:whitehorse-dan-mcgrew|Robert Service]], the Bard of the Yukon, is sometimes counted as a cowboy poet.",
+   "source": "https://en.wikipedia.org/wiki/National_Cowboy_Poetry_Gathering"
+  },
+  {
+   "id": "virginia-city-twain",
+   "lat": 39.3096,
+   "lng": -119.6499,
+   "kind": "place",
+   "title": "Mark Twain's first byline",
+   "fact": "Samuel Clemens first signed his writing \"Mark Twain\" here, on February 3, 1863, at Virginia City's Territorial Enterprise, after failing as a silver miner. The name was a riverboat call for two fathoms, 12 feet, of safe water.",
+   "source": "https://en.wikipedia.org/wiki/Mark_Twain"
+  },
+  {
+   "id": "ok-corral",
+   "lat": 31.7129,
+   "lng": -110.0676,
+   "kind": "place",
+   "title": "Not at the O.K. Corral",
+   "fact": "The gunfight at the O.K. Corral didn't happen at the O.K. Corral. It was in a narrow lot beside C. S. Fly's photography studio, six doors west of the corral's back entrance, and about 30 shots were fired in 30 seconds.",
+   "source": "https://en.wikipedia.org/wiki/Gunfight_at_the_O.K._Corral"
+  },
+  {
+   "id": "furnace-creek",
+   "lat": 36.4572,
+   "lng": -116.8667,
+   "kind": "place",
+   "title": "134 degrees",
+   "fact": "Furnace Creek holds the world's highest recorded air temperature, 134°F, on July 10, 1913. In 1972 the ground there reached 201°F.",
+   "source": "https://en.wikipedia.org/wiki/Furnace_Creek,_California"
+  },
+  {
+   "id": "devils-tower",
+   "lat": 44.5902,
+   "lng": -104.7146,
+   "kind": "place",
+   "title": "The first national monument",
+   "fact": "Theodore Roosevelt made Devils Tower the first national monument in the United States, on September 24, 1906. In 1977 it was where the aliens landed in Close Encounters of the Third Kind.",
+   "source": "https://en.wikipedia.org/wiki/Devils_Tower"
+  },
+  {
+   "id": "crater-lake",
+   "lat": 42.9446,
+   "lng": -122.109,
+   "kind": "place",
+   "title": "The Old Man of the Lake",
+   "fact": "At 1,949 feet, Crater Lake is the deepest lake in the United States. A whole tree trunk, the Old Man of the Lake, has bobbed upright in it for more than a century.",
+   "source": "https://en.wikipedia.org/wiki/Crater_Lake"
+  },
+  {
+   "id": "deadwood-aces-eights",
+   "lat": 44.3767,
+   "lng": -103.7296,
+   "kind": "place",
+   "title": "Aces and eights",
+   "fact": "Wild Bill Hickok was shot in the back while playing poker in Deadwood on August 2, 1876. His hand, black aces and eights, is now called the \"dead man's hand,\" though no one tied the name to him until the 1920s.",
+   "source": "https://en.wikipedia.org/wiki/Dead_man%27s_hand"
+  },
+  {
+   "id": "meteor-crater",
+   "lat": 35.0275,
+   "lng": -111.0222,
+   "kind": "place",
+   "title": "Mining a meteorite",
+   "fact": "Daniel Barringer spent 27 years and about $500,000 drilling Meteor Crater for the iron meteorite he was sure lay underneath. Most of it had vaporized on impact 50,000 years ago. Apollo astronauts later trained in the crater.",
+   "source": "https://en.wikipedia.org/wiki/Meteor_Crater"
+  },
+  {
+   "id": "south-pass-city",
+   "lat": 42.4683,
+   "lng": -108.8032,
+   "kind": "place",
+   "title": "Votes for women, 1869",
+   "fact": "In 1869 Wyoming Territory gave women the right to vote and to hold office, pushed by William Bright, a saloonkeeper from South Pass City. Esther Hobart Morris of South Pass City became the first woman justice of the peace.",
+   "source": "https://en.wikipedia.org/wiki/Women%27s_suffrage_in_Wyoming"
+  },
+  {
+   "id": "pony-express",
+   "lat": 38.5816,
+   "lng": -121.4944,
+   "kind": "place",
+   "title": "Eighteen months",
+   "fact": "The Pony Express carried mail between St. Joseph, Missouri, and Sacramento in about 10 days, but it lasted only 18 months. It announced its closing two days after the transcontinental telegraph reached Salt Lake City in October 1861.",
+   "source": "https://en.wikipedia.org/wiki/Pony_Express"
+  },
+  {
+   "id": "lucy-the-elephant",
+   "lat": 39.3206,
+   "lng": -74.5119,
+   "kind": "place",
+   "title": "A patent on elephants",
+   "fact": "Lucy the Elephant in Margate, New Jersey, is a six-story building shaped like an elephant, built in 1881. Its builder, James V. Lafferty, was granted a patent giving him the sole right to make an \"animal-shaped building\" for 17 years.",
+   "source": "https://en.wikipedia.org/wiki/Lucy_the_Elephant"
+  },
+  {
+   "id": "mackinac-no-cars",
+   "lat": 45.8611,
+   "lng": -84.6306,
+   "kind": "place",
+   "title": "Horses only",
+   "fact": "Cars have been banned in the city on Mackinac Island, Michigan, since 1898, after carriage drivers complained that automobiles startled their horses. The horse is still the main way to get around, and snowmobiles are allowed in winter.",
+   "source": "https://en.wikipedia.org/wiki/Mackinac_Island"
+  },
+  {
+   "id": "whittier-one-roof",
+   "lat": 60.7742,
+   "lng": -148.6778,
+   "kind": "place",
+   "title": "Town under one roof",
+   "fact": "Almost everyone in Whittier, Alaska, lives in one 14-story building, Begich Towers, which earned the town the nickname \"town under one roof.\" Until a tunnel opened to the public in 2000, the only ways in were rail, boat and plane.",
+   "source": "https://en.wikipedia.org/wiki/Whittier,_Alaska"
+  },
+  {
+   "id": "carhenge",
+   "lat": 42.1423,
+   "lng": -102.858,
+   "kind": "place",
+   "title": "Stonehenge, but cars",
+   "fact": "Carhenge, near Alliance, Nebraska, is Stonehenge rebuilt from 39 vintage American cars, all spray-painted gray. In 1992 its builder, Jim Reinders, took out a Toyota, saying he wanted an American Carhenge, not a Japanese one.",
+   "source": "https://en.wikipedia.org/wiki/Carhenge"
+  },
+  {
+   "id": "mobile-mardi-gras",
+   "lat": 30.6944,
+   "lng": -88.0431,
+   "kind": "place",
+   "title": "Mardi Gras came first here",
+   "fact": "The oldest Carnival celebration in the United States is in Mobile, Alabama, not New Orleans. It began in 1703, Mobile's parade tradition reached New Orleans in 1835, and Mobile's floats have thrown Moon Pies since 1956.",
+   "source": "https://en.wikipedia.org/wiki/Mardi_Gras_in_Mobile,_Alabama"
+  },
+  {
+   "id": "spokane-fathers-day",
+   "lat": 47.6588,
+   "lng": -117.426,
+   "kind": "place",
+   "title": "Where Father's Day started",
+   "fact": "Father's Day was first held in Washington state in 1910. Sonora Smart Dodd, raised with her five brothers by her father alone, came up with it after a Mother's Day church service and convinced the Spokane Ministerial Association to back it.",
+   "source": "https://en.wikipedia.org/wiki/Father%27s_Day"
+  },
+  {
+   "id": "biltmore-house",
+   "lat": 35.54,
+   "lng": -82.5519,
+   "kind": "place",
+   "title": "250 rooms",
+   "fact": "Biltmore, in Asheville, North Carolina, is the largest privately owned house in the United States, with 250 rooms, 43 bathrooms and 65 fireplaces. Its basement holds a heated indoor swimming pool and a bowling alley.",
+   "source": "https://en.wikipedia.org/wiki/Biltmore_Estate"
+  },
+  {
+   "id": "montpelier-no-mcdonalds",
+   "lat": 44.2597,
+   "lng": -72.5647,
+   "kind": "place",
+   "title": "No golden arches",
+   "fact": "Montpelier, Vermont, is the least populous state capital in the United States. It is also the only state capital without a single McDonald's or Starbucks.",
+   "source": "https://en.wikipedia.org/wiki/Montpelier,_Vermont"
+  },
+  {
+   "id": "coral-castle",
+   "lat": 25.5006,
+   "lng": -80.4444,
+   "kind": "place",
+   "title": "A castle on the move",
+   "fact": "Edward Leedskalnin built Coral Castle from 1,100 short tons of stone and said it was for his \"Sweet Sixteen.\" Around 1936 he spent three years moving the whole thing 10 miles north, from Florida City to just outside Homestead, Florida.",
+   "source": "https://en.wikipedia.org/wiki/Coral_Castle"
+  },
+  {
+   "id": "tijuana-caesar-salad",
+   "lat": 32.5317,
+   "lng": -117.0365,
+   "kind": "place",
+   "title": "Not Julius",
+   "fact": "Caesar salad is named for Caesar Cardini, not Julius Caesar. He made it up at his Tijuana restaurant on July 4, 1924, when a Fourth of July rush left the kitchen short on supplies.",
+   "source": "https://en.wikipedia.org/wiki/Caesar_salad"
+  },
+  {
+   "id": "naica-crystal-cave",
+   "lat": 27.8508,
+   "lng": -105.4964,
+   "kind": "place",
+   "title": "Ten minutes in the crystals",
+   "fact": "About 300 meters under the Naica mine, a cave holds gypsum crystals up to 11.4 meters long. At 58°C and 100% humidity, researchers without cooling suits could stay inside only 10 minutes.",
+   "source": "https://en.wikipedia.org/wiki/Naica_Mine"
+  },
+  {
+   "id": "cholula-pyramid",
+   "lat": 19.0575,
+   "lng": -98.3019,
+   "kind": "place",
+   "title": "Bigger than Giza",
+   "fact": "The largest pyramid by volume is in Cholula, not Egypt: over 4.45 million cubic meters, against about 2.5 million for Giza. It was overgrown by the time the Spanish arrived, and a church built in 1594 sits on top.",
+   "source": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Cholula"
+  },
+  {
+   "id": "chicxulub-puerto",
+   "lat": 21.2936,
+   "lng": -89.6058,
+   "kind": "place",
+   "title": "The devil's flea",
+   "fact": "The beach town of Chicxulub Puerto sits almost exactly on the center of the crater from the impact that ended the non-bird dinosaurs 66 million years ago. Chicxulub means \"the devil's flea\" in Yucatec Maya.",
+   "source": "https://en.wikipedia.org/wiki/Chicxulub_Puerto"
+  },
+  {
+   "id": "manaus-meeting-of-waters",
+   "lat": -3.1367,
+   "lng": -59.9047,
+   "kind": "place",
+   "title": "Two rivers, one bed",
+   "fact": "Near Manaus, the dark Rio Negro and the sandy Solimões run side by side for 6 km without mixing. The Negro is warmer (28°C to the Solimões' 22°C) and much slower.",
+   "source": "https://en.wikipedia.org/wiki/Meeting_of_Waters"
+  },
+  {
+   "id": "fordlandia",
+   "lat": -3.8314,
+   "lng": -55.4975,
+   "kind": "place",
+   "title": "Watermelon smuggling",
+   "fact": "In 1928 Henry Ford built a Midwest-style town in the Amazon to grow rubber, with a golf course and a ban on alcohol, even inside workers' homes. Workers paddled out to riverboats and hid contraband in watermelons.",
+   "source": "https://en.wikipedia.org/wiki/Fordl%C3%A2ndia"
+  },
+  {
+   "id": "snake-island",
+   "lat": -24.4861,
+   "lng": -46.675,
+   "kind": "place",
+   "title": "Snake Island",
+   "fact": "Ilha da Queimada Grande, 33 km off São Paulo, is the only place the golden lancehead viper lives. The Brazilian Navy keeps the public off, and the last residents left when the lighthouse was automated in the 1920s.",
+   "source": "https://en.wikipedia.org/wiki/Ilha_da_Queimada_Grande"
+  },
+  {
+   "id": "iguazu-poor-niagara",
+   "lat": -25.6867,
+   "lng": -54.4447,
+   "kind": "place",
+   "title": "Poor Niagara",
+   "fact": "When Eleanor Roosevelt saw Iguazu Falls, she reportedly said, \"Poor Niagara.\" The falls split into roughly 275 separate drops, and the border between Argentina and Brazil runs through the Devil's Throat.",
+   "source": "https://en.wikipedia.org/wiki/Iguazu_Falls"
+  },
+  {
+   "id": "son-doong-cave",
+   "lat": 17.4569,
+   "lng": 106.2875,
+   "kind": "place",
+   "title": "Found, then forgotten",
+   "fact": "Hồ Khanh found the entrance to Sơn Đoòng, the world's largest cave, in 1990, then forgot where it was. He found it again in 2008. Inside, a Boeing 747 could fly through without its wings touching.",
+   "source": "https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng"
+  },
+  {
+   "id": "hoi-an-japanese-bridge",
+   "lat": 15.8771,
+   "lng": 108.326,
+   "kind": "place",
+   "title": "A bridge against earthquakes",
+   "fact": "Japanese merchants built Hội An's covered bridge between 1593 and 1595. In 1653 they added a temple on top, by legend to calm Namazu, an earthquake monster, and it has statues of a monkey and a dog, the gods who control him.",
+   "source": "https://en.wikipedia.org/wiki/Japanese_Covered_Bridge"
+  },
+  {
+   "id": "ha-long-bay-dragon",
+   "lat": 20.9,
+   "lng": 107.2,
+   "kind": "place",
+   "title": "Descending dragon",
+   "fact": "Hạ Long means \"descending dragon.\" By legend, a family of dragons spat out jewels and jade that turned into the bay's islands, and the place where the mother dragon came down was named Hạ Long.",
+   "source": "https://en.wikipedia.org/wiki/H%E1%BA%A1_Long_Bay"
+  },
+  {
+   "id": "da-lat-crazy-house",
+   "lat": 11.9347,
+   "lng": 108.4306,
+   "kind": "place",
+   "title": "The Crazy House",
+   "fact": "Đà Lạt's \"Crazy House\" is a guesthouse shaped like a five-story banyan tree. Its architect paints pictures instead of drawing plans and has local craftsmen build them, and each room has an animal, like the kangaroo room.",
+   "source": "https://en.wikipedia.org/wiki/H%E1%BA%B1ng_Nga_guesthouse"
+  },
+  {
+   "id": "hokulea-honolua-bay",
+   "lat": 21.0137,
+   "lng": -156.6386,
+   "kind": "place",
+   "title": "To Tahiti by the stars",
+   "fact": "In 1976 the voyaging canoe Hōkūleʻa left Honolua Bay, Maui, for Papeʻete, Tahiti. Its navigator, Mau Piailug of the Caroline Islands, found the way without instruments; the trip home used a compass, charts and a sextant.",
+   "source": "https://en.wikipedia.org/wiki/H%C5%8Dk%C5%ABle%CA%BBa"
+  },
+  {
+   "id": "tupaia-raiatea",
+   "lat": -16.827,
+   "lng": -151.444,
+   "kind": "place",
+   "title": "Tupaia's chart",
+   "fact": "Tupaia, a navigator born on Raʻiatea around 1725, drew a chart for James Cook's crew in 1769 showing 130 islands within 2,000 miles, and named 74 of them. Its routes ran from Rotuma, through Samoa and Tonga, all the way to Rapa Nui.",
+   "source": "https://en.wikipedia.org/wiki/Tupaia_(navigator)"
+  },
+  {
+   "id": "easter-island-name",
+   "lat": -27.1127,
+   "lng": -109.3497,
+   "kind": "place",
+   "title": "Found on Easter Sunday",
+   "fact": "Easter Island is named for the day the Dutch explorer Jacob Roggeveen came upon it, Easter Sunday, April 5, 1722. He was searching for a different place, called Davis Land.",
+   "source": "https://en.wikipedia.org/wiki/Easter_Island"
+  },
+  {
+   "id": "niuafoou-tin-can-mail",
+   "lat": -15.595,
+   "lng": -175.633,
+   "kind": "place",
+   "title": "Tin can mail",
+   "fact": "Ships had such trouble landing at Niuafoʻou, in Tonga, that by 1912 the islanders ran a tin can mail service. Passing ships sealed the mail in a biscuit or kerosene tin and threw it overboard, and swimmers brought it in.",
+   "source": "https://en.wikipedia.org/wiki/Niuafo%CA%BBou"
+  },
+  {
+   "id": "taumata-hill",
+   "lat": -40.3461,
+   "lng": 176.5403,
+   "kind": "place",
+   "title": "An 85-letter hill",
+   "fact": "This hill near Pōrangahau, in Hawke's Bay, has an 85-character name, possibly the longest place name in the world. It means, roughly, the summit where Tamatea, the man with the big knees, played his kōauau (flute) to his loved one.",
+   "source": "https://en.wikipedia.org/wiki/Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu"
+  },
+  {
+   "id": "tuvalu-dot-tv",
+   "lat": -8.5211,
+   "lng": 179.1983,
+   "kind": "place",
+   "title": "Tuvalu's .tv",
+   "fact": "The .tv web domain belongs to Tuvalu. It sells well because TV also stands for television, and by 2019 its royalties made up 8.4% of the Tuvalu government's revenue.",
+   "source": "https://en.wikipedia.org/wiki/.tv"
+  },
+  {
+   "id": "signal-hill-marconi",
+   "lat": 47.5701,
+   "lng": -52.6818,
+   "kind": "place",
+   "title": "The first signal across",
+   "fact": "On December 12, 1901, Guglielmo Marconi received the first transatlantic wireless transmission on Signal Hill in St. John's, Newfoundland. He picked it up in an abandoned fever and diphtheria hospital, which has since burned down.",
+   "source": "https://en.wikipedia.org/wiki/Signal_Hill,_St._John%27s"
+  },
+  {
+   "id": "haskell-library-border",
+   "lat": 45.0058,
+   "lng": -72.0976,
+   "kind": "place",
+   "title": "A line on the floor",
+   "fact": "The Haskell Free Library and Opera House was built on the border between Canada and the United States on purpose. A thick black line on the floor marks it; the books and the stage are in Stanstead, Quebec, and the front door is in Derby Line, Vermont.",
+   "source": "https://en.wikipedia.org/wiki/Haskell_Free_Library_and_Opera_House"
+  },
+  {
+   "id": "st-paul-ufo-pad",
+   "lat": 53.9925,
+   "lng": -111.2915,
+   "kind": "place",
+   "title": "Landing pad for Martians",
+   "fact": "St. Paul, Alberta, built the world's first UFO landing pad for Canada's 1967 centennial, hoping to draw both tourists and Martians. Queen Elizabeth II and Prince Philip stopped to see it in 1978.",
+   "source": "https://en.wikipedia.org/wiki/St._Paul,_Alberta"
+  },
+  {
+   "id": "alert-nunavut",
+   "lat": 82.5018,
+   "lng": -62.3481,
+   "kind": "place",
+   "title": "Closer to Moscow",
+   "fact": "Alert, on the northeastern tip of Ellesmere Island in Nunavut, is the northernmost continuously inhabited place in the world. It is closer to Moscow (about 4,000 km) than to Canada's own capital, Ottawa (about 4,150 km).",
+   "source": "https://en.wikipedia.org/wiki/CFS_Alert"
+  },
+  {
+   "id": "bern-einstein-flat",
+   "lat": 46.9477,
+   "lng": 7.45,
+   "kind": "place",
+   "title": "Relativity on Kramgasse",
+   "fact": "From 1903 to 1905, Einstein lived in a second-floor flat at Kramgasse 49 in Bern. He wrote his Annus Mirabilis papers there, including the theory of relativity, while working at the Swiss patent office.",
+   "source": "https://en.wikipedia.org/wiki/Einsteinhaus"
+  },
+  {
+   "id": "munich-oktoberfest-wedding",
+   "lat": 48.1314,
+   "lng": 11.5492,
+   "kind": "place",
+   "title": "A wedding with a horse race",
+   "fact": "The first Oktoberfest, on October 12, 1810, was a wedding party for Crown Prince Ludwig and Princess Therese, and thirty horses raced in it. The meadow was named Theresienwiese after the bride, and Munich still calls it the Wiesn.",
+   "source": "https://en.wikipedia.org/wiki/Oktoberfest"
+  },
+  {
+   "id": "pisa-leaning-from-the-start",
+   "lat": 43.7231,
+   "lng": 10.3964,
+   "kind": "place",
+   "title": "Leaning since 1178",
+   "fact": "The Leaning Tower of Pisa started leaning while it was still being built. Work began in 1173, and by 1178, with only two floors up, it was already sinking into ground too soft to hold it.",
+   "source": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+  },
+  {
+   "id": "paris-eiffel-temporary",
+   "lat": 48.8582,
+   "lng": 2.2945,
+   "kind": "place",
+   "title": "Saved by radio",
+   "fact": "The Eiffel Tower was built as a temporary structure for the 1889 Exposition Universelle and was due to be taken down in 1909. It survived because it had become too useful for radio telegraphy.",
+   "source": "https://en.wikipedia.org/wiki/Eiffel_Tower"
+  },
+  {
+   "id": "edinburgh-one-oclock-gun",
+   "lat": 55.9486,
+   "lng": -3.2008,
+   "kind": "place",
+   "title": "The One O'Clock Gun",
+   "fact": "Since 1861, a gun at Edinburgh Castle has fired at exactly one p.m. as a time signal for ships in Leith harbour and the Firth of Forth. It still fires every day except Sunday, Good Friday and Christmas.",
+   "source": "https://en.wikipedia.org/wiki/Edinburgh_Castle"
+  },
+  {
+   "id": "iceland-geysir-the-original",
+   "lat": 64.3137,
+   "lng": -20.2995,
+   "kind": "place",
+   "title": "The first geyser",
+   "fact": "The English word geyser comes from this one hot spring, Geysir, in Iceland's Haukadalur valley. Its name comes from the Icelandic verb geysa, \"to gush,\" and in 1845 it reached 170 m high.",
+   "source": "https://en.wikipedia.org/wiki/Geysir"
+  },
+  {
+   "id": "moscow-tsar-bell",
+   "lat": 55.7508,
+   "lng": 37.6183,
+   "kind": "place",
+   "title": "The bell never rung",
+   "fact": "The Tsar Bell in the Kremlin has never been rung. During a fire in 1737, guards threw cold water on the unfinished bell, and a slab of about 10,400 kg broke off. Voltaire joked about it.",
+   "source": "https://en.wikipedia.org/wiki/Tsar_Bell"
+  },
+  {
+   "id": "st-petersburg-hermitage-cats",
+   "lat": 59.9406,
+   "lng": 30.3136,
+   "kind": "place",
+   "title": "Mousers on staff",
+   "fact": "In 1745 Empress Elizabeth ordered cats into the Winter Palace to catch mice, and Kazan sent five of its best mousers. The Hermitage still keeps a colony of working cats, with a press secretary just for them.",
+   "source": "https://en.wikipedia.org/wiki/Hermitage_cats"
+  },
+  {
+   "id": "siberia-tunguska",
+   "lat": 60.9031,
+   "lng": 101.9097,
+   "kind": "place",
+   "title": "Reading at midnight",
+   "fact": "On June 30, 1908, an explosion in the sky over Siberia flattened several million trees across more than 2,150 square kilometers. That evening, the night sky was so bright over a huge area that people could read a newspaper at midnight.",
+   "source": "https://en.wikipedia.org/wiki/Tunguska_event"
+  },
+  {
+   "id": "odesa-potemkin-stairs",
+   "lat": 46.4892,
+   "lng": 30.7433,
+   "kind": "place",
+   "title": "Shorter than they look",
+   "fact": "The Potemkin Stairs run 142 m down toward Odesa's port and look longer than they are. Eight steps were buried under sand when the port was extended, leaving 192.",
+   "source": "https://en.wikipedia.org/wiki/Potemkin_Stairs"
+  },
+  {
+   "id": "kyiv-arsenalna-deep",
+   "lat": 50.444,
+   "lng": 30.5453,
+   "kind": "place",
+   "title": "Five minutes down",
+   "fact": "Arsenalna station in Kyiv sits 105.5 m underground, making it the second-deepest metro station in the world. The ride down its two escalators can take up to five minutes.",
+   "source": "https://en.wikipedia.org/wiki/Arsenalna_(Kyiv_Metro)"
+  },
+  {
+   "id": "kharkiv-derzhprom",
+   "lat": 50.0064,
+   "lng": 36.2272,
+   "kind": "place",
+   "title": "The first Soviet skyscraper",
+   "fact": "Kharkiv's Derzhprom opened in 1928 as the first Soviet skyscraper and was the most spacious single structure in the world until the 1930s. It also had Ukraine's first garbage chute.",
+   "source": "https://en.wikipedia.org/wiki/Derzhprom"
+  },
+  {
+   "id": "altdorf-william-tell",
+   "lat": 46.8806,
+   "lng": 8.6444,
+   "kind": "me",
+   "title": "The apple shot",
+   "fact": "By legend, on November 18, 1307, William Tell refused to bow to a hat on a pole in Altdorf and had to shoot an apple off his son's head. He split it with one crossbow bolt. I directed William Tell at [[swiss-days|Swiss Days]] in 2021 and 2022.",
+   "source": "https://en.wikipedia.org/wiki/William_Tell"
+  },
+  {
+   "id": "hiawatha-crater",
+   "lat": 78.7333,
+   "lng": -66.2333,
+   "kind": "me",
+   "title": "A crater under the ice",
+   "fact": "Under the Hiawatha Glacier lies a crater about 31 km across, spotted in airborne radar surveys of the bedrock in 2016. An iron asteroid about 1.5 km wide made it some 58 million years ago. That radar is the kind I study for [[stanford-research|Europa's ice]].",
+   "source": "https://en.wikipedia.org/wiki/Hiawatha_impact_structure"
+  },
+  {
+   "id": "camp-century",
+   "lat": 77.1667,
+   "lng": -61.1333,
+   "kind": "place",
+   "title": "A base inside the ice",
+   "fact": "In 1959 the US Army dug Camp Century into the Greenland ice sheet: 21 tunnels, 3 km in all, powered by a nuclear reactor. The ice crushed it after it was abandoned in 1967, and in 2024 NASA radar picked out its remains.",
+   "source": "https://en.wikipedia.org/wiki/Camp_Century"
+  },
+  {
+   "id": "kaffeklubben-coffee-club",
+   "lat": 83.6625,
+   "lng": -30.6139,
+   "kind": "place",
+   "title": "The Coffee Club",
+   "fact": "Kaffeklubben Island, the northernmost undisputed land on Earth, is named for a coffee club. Danish explorer Lauge Koch landed in 1921 and named it after the one at the University of Copenhagen's Geological Museum. A 2023 expedition found a stoat there, nicknamed Randall.",
+   "source": "https://en.wikipedia.org/wiki/Kaffeklubben_Island"
+  },
+  {
+   "id": "ilulissat-icebergs",
+   "lat": 69.15,
+   "lng": -49.55,
+   "kind": "place",
+   "title": "Too tall to float",
+   "fact": "Jakobshavn Glacier pushes 20 to 35 m a day into Ilulissat Icefjord. Some of its icebergs are up to a kilometer tall, too tall to float down the fjord, so they sit stuck on the bottom, sometimes for years.",
+   "source": "https://en.wikipedia.org/wiki/Ilulissat_Icefjord"
+  },
+  {
+   "id": "brattahlid-erik-the-red",
+   "lat": 61.1522,
+   "lng": -45.515,
+   "kind": "place",
+   "title": "A good name",
+   "fact": "Erik the Red gave Greenland a nicer name than Iceland on purpose, saying people would come to a land with a favorable name. He built his estate, Brattahlíð, here. His wife had Greenland's first church built, though Erik stuck to the Norse gods.",
+   "source": "https://en.wikipedia.org/wiki/Erik_the_Red"
+  },
+  {
+   "id": "lake-vostok",
+   "lat": -77.5,
+   "lng": 106.0,
+   "kind": "place",
+   "title": "A lake under 4 km of ice",
+   "fact": "Lake Vostok, 250 km long, lies about 4 km under the ice beneath Russia's Vostok Station. British [[i:dtu-radio-echo-sounding|airborne radar]] picked up unusual readings there in the early 1970s. Sealed off for millions of years, its water could resemble the ocean under [[stanford-research|Europa's ice]].",
+   "source": "https://en.wikipedia.org/wiki/Lake_Vostok"
+  },
+  {
+   "id": "gamburtsev-mountains",
+   "lat": -80.5,
+   "lng": 76.0,
+   "kind": "place",
+   "title": "Buried Alps",
+   "fact": "A mountain range the size of the Alps, about 1,200 km long, lies completely buried under the East Antarctic ice. Soviet scientists found the Gamburtsev Mountains in 1958. From 2007 to 2009 planes mapped their sharp peaks with [[stanford-research|ice-penetrating radar]].",
+   "source": "https://en.wikipedia.org/wiki/Gamburtsev_Mountain_Range"
+  },
+  {
+   "id": "blood-falls",
+   "lat": -77.7167,
+   "lng": 162.2667,
+   "kind": "me",
+   "title": "Rust-red brine",
+   "fact": "Blood Falls runs red because its brine, seawater trapped under Taylor Glacier some 5 million years ago, is full of iron that rusts in the air. The brine is two to three times saltier than the ocean. How brine in ice changes radar echoes is [[stanford-research|what I study]].",
+   "source": "https://en.wikipedia.org/wiki/Blood_Falls"
+  },
+  {
+   "id": "deception-island",
+   "lat": -62.9583,
+   "lng": -60.6417,
+   "kind": "place",
+   "title": "Sail into a volcano",
+   "fact": "Deception Island is a ring of land around the flooded caldera of an active volcano, entered through a gap 500 m wide called Neptune's Bellows. Eruptions in 1967 and 1969 wrecked its research stations, and visitors still dig warm baths in the beach sand.",
+   "source": "https://en.wikipedia.org/wiki/Deception_Island"
+  },
+  {
+   "id": "south-pole-marker",
+   "lat": -90.0,
+   "lng": 0.0,
+   "kind": "place",
+   "title": "A new pole every year",
+   "fact": "The South Pole sits on ice about 3.2 km thick that slides several meters a year, carrying the pole's marker with it. Each New Year's Day the marker is moved back, and the staff there design and make a new one every year.",
+   "source": "https://en.wikipedia.org/wiki/South_Pole"
+  },
+  {
+   "id": "concordia-skuas",
+   "lat": -75.0998,
+   "lng": 123.3322,
+   "kind": "place",
+   "title": "The skuas' shortcut",
+   "fact": "Nothing lives on Dome C, home of Concordia Station, more than 1,000 km inland. Yet south polar skuas have been seen flying over, 1,200 km from their nearest food. They seem to have learned to cross the continent instead of going around it.",
+   "source": "https://en.wikipedia.org/wiki/Concordia_Station"
+  },
+  {
+   "id": "dtu-radio-echo-sounding",
+   "lat": 55.7858,
+   "lng": 12.5214,
+   "kind": "me",
+   "title": "Danish radar over Antarctica",
+   "fact": "From 1967 to 1979, the Technical University of Denmark, Cambridge's Scott Polar Research Institute and the US National Science Foundation flew radar over Antarctica, mapping the land under the ice and [[i:lake-vostok|its lakes]]. I work on the same kind of radar for [[stanford-research|Europa's ice]].",
+   "source": "https://en.wikipedia.org/wiki/Subglacial_lake"
+  },
+  {
+   "id": "rubjerg-knude-lighthouse",
+   "lat": 57.4489,
+   "lng": 9.7743,
+   "kind": "place",
+   "title": "A lighthouse on rails",
+   "fact": "Rubjerg Knude Lighthouse stood on a cliff the sea eats away about 1.5 m a year. In 2019 the 720-tonne tower was moved 70 m inland on rails built for the job, which should keep it safe until around 2060.",
+   "source": "https://en.wikipedia.org/wiki/Rubjerg_Knude_Lighthouse"
+  }
+ ]
+}
